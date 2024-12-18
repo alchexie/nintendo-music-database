@@ -1,3 +1,4 @@
+import math
 from typing import Iterable
 import requests
 import os
@@ -37,7 +38,8 @@ def save_csv(file_path: str, data: list[dict], key_list: list[str]):
                     value = value.replace("\"", "\\\"")
                     value_list[i] = f"\"{value}\""
                 elif isinstance(value, Iterable):
-                    value = "/".join(value).replace("\"", "\\\"")
+                    value = sorted(list(value))
+                    value = "|".join(value).replace("\"", "\\\"")
                     value_list[i] = f"\"{value}\""
             file.write(",".join(map(str, value_list)) + "\n")
 
@@ -161,6 +163,8 @@ def gen_excel(IETF: str):
     with pd.ExcelWriter(file_path) as writer:
         for sheet in sheet_list:
             df = pd.read_csv(sheet["csv_path"], escapechar="\\")
+            if "duration" in df.columns:
+                df["duration"] = df["duration"].apply(lambda x: f"{x // 60000}:{math.ceil(x / 1000) % 60:02d}")
             df.to_excel(writer, sheet_name=sheet["sheet_name"], index=False)
 
 
