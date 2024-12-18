@@ -1,8 +1,9 @@
+from typing import Iterable
 import requests
 import os
 import re
 import pandas as pd
-
+from pathlib import Path
 # https://api.m.nintendo.com/catalog/games:all?country=JP&lang=en-US&sortRule=RECENT
 # https://api.m.nintendo.com/catalog/gameGroups?country=JP&groupingPolicy=RELEASEDAT&lang=en-US
 # https://api.m.nintendo.com/catalog/gameGroups?country=JP&groupingPolicy=HARDWARE&lang=en-US
@@ -14,7 +15,7 @@ IETF_list = ["zh-CN", "en-US", "ja-JP"]
 
 
 def get_api(url: str, params: dict, retry_count: int = 5) -> dict:
-    for i in range(retry_count):
+    for _ in range(retry_count):
         try:
             response = requests.get(url, params=params)
             if response.status_code == 200:
@@ -31,17 +32,13 @@ def save_csv(file_path: str, data: list[dict], key_list: list[str]):
         file.write(",".join(key_list) + "\n")
         for item in data:
             value_list = [item[key] for key in key_list]
-            for i in range(len(value_list)):
-                value = value_list[i]
+            for i, value in enumerate(value_list):
                 if isinstance(value, str):
                     value = value.replace("\"", "\\\"")
-                    value = f"\"{value}\""
-                    value_list[i] = value
-                elif isinstance(value, set):
-                    value = "/".join(value)
-                    value = value.replace("\"", "\\\"")
-                    value = f"\"{value}\""
-                    value_list[i] = value
+                    value_list[i] = f"\"{value}\""
+                elif isinstance(value, Iterable):
+                    value = "/".join(value).replace("\"", "\\\"")
+                    value_list[i] = f"\"{value}\""
             file.write(",".join(map(str, value_list)) + "\n")
 
 
@@ -50,17 +47,14 @@ def get_valid_filename(s: str) -> str:
 
 
 def gen_excel(IETF: str):
-    path = os.path.join("output", IETF)
-    if not os.path.exists(path):
-        os.makedirs(path)
+    path = Path("output") / IETF
+    path.mkdir(parents=True, exist_ok=True)
 
     url = f"{host}/catalog/games:all"
     game_data_list = get_api(url, {"country": "JP", "lang": IETF, "sortRule": "RECENT"})
-    game_index = 0
-    game_dict: dict = {}
-    for game_data in game_data_list:
-        print(f"{game_data["id"]} {game_data["name"]}")
-        game_index = game_index + 1
+    game_dict = {}
+    for game_index, game_data in enumerate(game_data_list, start=1):
+        print(f"{game_data['id']} {game_data['name']}")
         game = {
             "id": game_data["id"],
             "index": game_index,
@@ -75,20 +69,18 @@ def gen_excel(IETF: str):
         if game["isLink"]:
             continue
 
-        file_name = f"{game_data["name"]}.csv"
-        file_name = get_valid_filename(file_name)
-        file_path = os.path.join(path, file_name)
-        if os.path.exists(file_path):
+        file_name = get_valid_filename(f"{game_data['name']}.csv")
+        file_path = path / file_name
+        if file_path.exists():
             continue
 
-        url = f"{host}/catalog/games/{game_data["id"]}/relatedPlaylists"
+        url = f"{host}/catalog/games/{game_data['id']}/relatedPlaylists"
         game_play_list_data = get_api(url, {"country": "JP", "lang": IETF, "membership": "BASIC", "packageType": "hls_cbcs", "sdkVersion": "ios-1.4.0_f362763-1"})
         all_play_list_id = game_play_list_data["allPlaylist"]["id"]
         url = f"{host}/catalog/officialPlaylists/{all_play_list_id}"
         all_play_list_data = get_api(url, {"country": "JP", "lang": IETF, "membership": "BASIC", "packageType": "hls_cbcs", "sdkVersion": "ios-1.4.0_f362763-1"})
-        track_index = 0
-        track_dict: dict = {}
-        for track_data in all_play_list_data["tracks"]:
+        track_dict = {}
+        for track_index, track_data in enumerate(all_play_list_data["tracks"], start=1):
             payload_data = track_data["media"]["payloadList"][0]
             is_loop = payload_data["containsLoopableMedia"]
 
@@ -99,7 +91,6 @@ def gen_excel(IETF: str):
             else:
                 duration = payload_data["durationMillis"]
 
-            track_index = track_index + 1
             track = {
                 "id": track_data["id"],
                 "index": track_index,
@@ -107,57 +98,51 @@ def gen_excel(IETF: str):
                 "duration": duration,
                 "isLoop": is_loop,
                 "isBest": False,
-                "playlist": set[str](),
+                "playlist": order_set(),
                 "thumbnailURL": track_data.get("thumbnailURL", ""),
             }
             track_dict[track["id"]] = track
 
         for track_data in game_play_list_data["bestPlaylist"]["tracks"]:
-            id = track_data["id"]
-            if id in track_dict:
-                track_dict[id]["isBest"] = True
+            track_dict[track_data["id"]]["isBest"] = True
 
         for plat_list_sum_data in game_play_list_data["miscPlaylistSet"]["officialPlaylists"]:
             if plat_list_sum_data["type"] == "LOOP":
                 continue
-            url = f"{host}/catalog/officialPlaylists/{plat_list_sum_data["id"]}"
+            url = f"{host}/catalog/officialPlaylists/{plat_list_sum_data['id']}"
             plat_list_data = get_api(url, {"country": "JP", "lang": IETF, "membership": "BASIC", "packageType": "hls_cbcs", "sdkVersion": "ios-1.4.0_f362763-1"})
             for track_data in plat_list_data["tracks"]:
                 id = track_data["id"]
                 if id in track_dict:
                     track_dict[id]["playlist"].add(plat_list_sum_data["name"])
 
-        track_list = list(track_dict.values())
-        track_list.sort(key=lambda x: x["index"])
+        track_list = sorted(track_dict.values(), key=lambda x: x["index"])
         key_list = ["index", "name", "duration", "isLoop", "isBest", "playlist", "id", "thumbnailURL"]
-        save_csv(file_path, track_list, key_list)
+        save_csv(str(file_path), track_list, key_list)
 
     url = f"{host}/catalog/gameGroups"
     game_group_data = get_api(url, {"country": "JP", "groupingPolicy": "RELEASEDAT", "lang": IETF})
     for group_data in game_group_data["releasedAt"]:
         year = group_data["releasedYear"]
         for game_data in group_data["items"]:
-            id = game_data["id"]
-            if id in game_dict:
-                game_dict[id]["year"] = year
-    count = len(game_dict)
-    for game in game_dict.values():
-        game["index"] = count - game["index"] + 1
-    game_list = list(game_dict.values())
-    game_list.sort(key=lambda x: x["index"])
+            if game_data["id"] in game_dict:
+                game_dict[game_data["id"]]["year"] = year
 
-    file_path = os.path.join(path, "game.csv")
-    if os.path.exists(file_path):
-        os.remove(file_path)
+    game_list = sorted(game_dict.values(), key=lambda x: x["index"], reverse=True)
+    for game in game_list:
+        game["index"] = len(game_list) - game["index"] + 1
+
+    file_path = path / "game.csv"
+    if file_path.exists():
+        file_path.unlink()
 
     key_list = ["index", "name", "year", "hardware", "isLink", "id", "thumbnailURL"]
-    save_csv(file_path, game_list, key_list)
+    save_csv(str(file_path), game_list, key_list)
 
-    csv_path_list = [os.path.join(path, file) for file in os.listdir(path) if file.endswith('.csv')]
+    csv_path_list = [path / file for file in os.listdir(path) if file.endswith('.csv')]
     sheet_list: list = []
     for csv_path in csv_path_list:
-        file_name = os.path.basename(csv_path)
-        sheet_name = os.path.splitext(file_name)[0]
+        sheet_name = csv_path.stem
         index = 0
         for game in game_list:
             if get_valid_filename(game["name"]) == sheet_name:
@@ -166,12 +151,13 @@ def gen_excel(IETF: str):
         sheet_list.append({
             "index": index,
             "sheet_name": sheet_name,
-            "csv_path": csv_path
+            "csv_path": str(csv_path)
         })
     sheet_list.sort(key=lambda x: x["index"])
-    file_path = os.path.join("output", f"Nintendo Music {IETF}.xlsx")
-    if os.path.exists(file_path):
-        os.remove(file_path)
+
+    file_path = Path("output") / f"Nintendo Music {IETF}.xlsx"
+    if file_path.exists():
+        file_path.unlink()
     with pd.ExcelWriter(file_path) as writer:
         for sheet in sheet_list:
             df = pd.read_csv(sheet["csv_path"], escapechar="\\")

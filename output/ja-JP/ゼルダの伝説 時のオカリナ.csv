@@ -10,7 +10,7 @@ index,name,duration,isLoop,isBest,playlist,id,thumbnailURL
 9,"小アイテムキャッチファンファーレ",3101,False,False,"","b7eae764-fd49-41c6-9a2c-8dc21676ce5f","https://image-assets.m.nintendo.com/c7a599af-4c3f-45a1-9f12-7c988a1c153f"
 10,"お店",65757,True,False,"ハイラル探訪","83c76378-0256-4a37-abc9-6147fa1919dc","https://image-assets.m.nintendo.com/12aa8ec0-928b-43af-a468-bde82ff9d1cb"
 11,"戦闘",65133,True,True,"バトル","de9b8304-d2c1-485f-843e-4905d9c3f20f","https://image-assets.m.nintendo.com/a1921fca-5bd6-4d29-a4e8-8bb1edc5634b"
-12,"デクの樹ダンジョン",85587,True,True,"ダンジョン/デクの樹","3f187ebd-7842-4351-976e-71430edce944","https://image-assets.m.nintendo.com/395f71b0-0e2a-4e02-b69a-c8e47eb656bf"
+12,"デクの樹ダンジョン",85587,True,True,"デクの樹/ダンジョン","3f187ebd-7842-4351-976e-71430edce944","https://image-assets.m.nintendo.com/395f71b0-0e2a-4e02-b69a-c8e47eb656bf"
 13,"ボス戦闘",77697,True,True,"バトル","6db8eaed-8b8a-4546-a7a3-f73ab13e2442","https://image-assets.m.nintendo.com/48cb154c-9db1-4967-9e5d-292c5fee8ece"
 14,"ボスクリアファンファーレ",11308,False,False,"","11b01fdd-b939-43fd-9e24-6be1fb597212","https://image-assets.m.nintendo.com/1de95e25-76fe-4100-92f0-907095cc267a"
 15,"ハートの器ゲットファンファーレ",3413,False,False,"","f9f57b5e-d48a-4442-83a3-7ce69ea4fc2a","https://image-assets.m.nintendo.com/5b984891-6629-44eb-8134-5ff6d0c99766"
