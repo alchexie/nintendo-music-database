@@ -98,7 +98,7 @@ def gen_excel(IETF: str):
                 "duration": duration,
                 "isLoop": is_loop,
                 "isBest": False,
-                "playlist": order_set(),
+                "playlist": set(),
                 "thumbnailURL": track_data.get("thumbnailURL", ""),
             }
             track_dict[track["id"]] = track
