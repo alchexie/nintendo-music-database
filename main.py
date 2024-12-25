@@ -1,5 +1,5 @@
 import math
-from typing import Iterable
+from typing import Iterable, Optional
 import requests
 import os
 import re
@@ -28,7 +28,9 @@ def get_api(url: str, params: dict, retry_count: int = 5) -> dict:
     exit(1)
 
 
-def save_csv(file_path: str, data: list[dict], key_list: list[str]):
+def save_csv(file_path: str, data: list[dict], key_list: Optional[list[str]] = None):
+    if not key_list:
+        key_list = list(data[0].keys())
     with open(file_path, "a", encoding="utf-8") as file:
         file.write(",".join(key_list) + "\n")
         for item in data:
