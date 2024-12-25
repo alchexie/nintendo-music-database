@@ -1,3 +1,4 @@
+import concurrent.futures
 import math
 from typing import Iterable, Optional
 import requests
@@ -18,20 +19,20 @@ IETF_list = ["zh-CN", "en-US", "ja-JP"]
 def get_api(url: str, params: dict, retry_count: int = 5) -> dict:
     for _ in range(retry_count):
         try:
-            response = requests.get(url, params=params)
+            response = requests.get(url, params=params, timeout=10)
             if response.status_code == 200:
                 return response.json()
             else:
                 print(f"Error: {response.status_code}")
         except Exception as e:
             print(f"Error: {e}")
-    exit(1)
+    raise RuntimeError("Failed to get a successful response from the API after multiple retries")
 
 
 def save_csv(file_path: str, data: list[dict], key_list: Optional[list[str]] = None):
     if not key_list:
         key_list = list(data[0].keys())
-    with open(file_path, "a", encoding="utf-8") as file:
+    with open(file_path, "w", encoding="utf-8") as file:
         file.write(",".join(key_list) + "\n")
         for item in data:
             value_list = [item[key] for key in key_list]
@@ -91,7 +92,7 @@ def gen_excel(IETF: str):
             if is_loop:
                 duration = payload_data["loopableMedia"]["composed"]["durationMillis"]
                 if payload_data["durationMillis"] != duration:
-                    print(f"{game_data["name"]} {track_data["name"]} {payload_data["durationMillis"]} {duration}")
+                    print(f'{game_data["name"]} {track_data["name"]} {payload_data["durationMillis"]} {duration}')
             else:
                 duration = payload_data["durationMillis"]
 
@@ -170,7 +171,7 @@ def gen_excel(IETF: str):
             df.to_excel(writer, sheet_name=sheet["sheet_name"], index=False)
 
 
-for IETF in IETF_list:
-    gen_excel(IETF)
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    executor.map(gen_excel, IETF_list)
 
 print("Done")
