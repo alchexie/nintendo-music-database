@@ -82,8 +82,11 @@ def save_csv(file_path: str, data: list[dict], key_list: Optional[list[str]] = N
                 if isinstance(value, str):
                     value = value.replace('"', '\\"')
                     value_list[i] = f'"{value}"'
-                elif isinstance(value, Iterable):
+                elif isinstance(value, set):
                     value = sorted(list(value))
+                    value = '|'.join(value).replace('"', '\\"')
+                    value_list[i] = f'"{value}"'
+                elif isinstance(value, list):
                     value = '|'.join(value).replace('"', '\\"')
                     value_list[i] = f'"{value}"'
             file.write(','.join(map(str, value_list)) + '\n')
@@ -107,7 +110,7 @@ def gen_excel(lang: str):
             'name': game_data['name'],
             'year': 0,
             'hardware': game_data['formalHardware'],
-            'related_game': set(),
+            'related_game': list(),
             'is_link': game_data['isGameLink'],
             'thumbnail_url': game_data.get('thumbnailURL', ''),
             'track_dict': {}
@@ -116,7 +119,7 @@ def gen_excel(lang: str):
 
         related_game_data_list = get_related_game_data_list(game_data['id'], lang)
         for related_game_data in related_game_data_list:
-            game['related_game'].add(related_game_data['name'])
+            game['related_game'].append(related_game_data['name'])
 
         if game['is_link']:
             continue
@@ -243,4 +246,4 @@ def main(is_concurrency: bool = False):
 
 
 if __name__ == '__main__':
-    main(True)
+    main()
