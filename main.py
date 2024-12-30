@@ -13,7 +13,7 @@ import requests
 # https://api.m.nintendo.com/catalog/gameGroups?country=JP&groupingPolicy=HARDWARE&lang=en-US
 # https://api.m.nintendo.com/catalog/games/e55a92d6-12f2-4011-8312-e7b38e2a3c7f/relatedPlaylists?country=JP&lang=zh-CN&membership=BASIC&packageType=hls_cbcs&sdkVersion=ios-1.4.0_f362763-1
 # https://api.m.nintendo.com/catalog/officialPlaylists/772a2b39-c35d-43fd-b3b1-bf267c01f342?country=JP&lang=ja-JP&membership=BASIC&packageType=hls_cbcs&sdkVersion=ios-1.4.0_f362763-1
-
+# https://api.m.nintendo.com/catalog/games/e55a92d6-12f2-4011-8312-e7b38e2a3c7f/relatedGames?country=JP&lang=zh-CN
 host = 'https://api.m.nintendo.com'
 lang_list = ['zh-CN', 'en-US', 'ja-JP']  # IETF
 
@@ -39,12 +39,20 @@ def get_playlist_data(id, lang: str) -> dict:
     return playlist_data
 
 
-def get_game_related_data(id, lang: str) -> dict:
+def get_related_playlist_data(id, lang: str) -> dict:
     url = f'{host}/catalog/games/{id}/relatedPlaylists'
-    game_related_data = get_api(url, {'country': 'JP', 'lang': lang, 'membership': 'BASIC', 'packageType': 'hls_cbcs', 'sdkVersion': 'ios-1.4.0_f362763-1'})
-    if not isinstance(game_related_data, dict):
+    related_playlist_data = get_api(url, {'country': 'JP', 'lang': lang, 'membership': 'BASIC', 'packageType': 'hls_cbcs', 'sdkVersion': 'ios-1.4.0_f362763-1'})
+    if not isinstance(related_playlist_data, dict):
         raise RuntimeError('Failed to get game related data')
-    return game_related_data
+    return related_playlist_data
+
+
+def get_related_game_data_list(id, lang: str) -> list[dict]:
+    url = f'{host}/catalog/games/{id}/relatedGames'
+    related_game_data_list = get_api(url, {'country': 'JP', 'lang': lang})
+    if not isinstance(related_game_data_list, list):
+        raise RuntimeError('Failed to get game related data')
+    return related_game_data_list
 
 
 def get_all_game_data(lang: str) -> list[dict]:
@@ -99,11 +107,16 @@ def gen_excel(lang: str):
             'name': game_data['name'],
             'year': 0,
             'hardware': game_data['formalHardware'],
+            'related_game': set(),
             'is_link': game_data['isGameLink'],
             'thumbnail_url': game_data.get('thumbnailURL', ''),
             'track_dict': {}
         }
         game_dict[game['id']] = game
+
+        related_game_data_list = get_related_game_data_list(game_data['id'], lang)
+        for related_game_data in related_game_data_list:
+            game['related_game'].add(related_game_data['name'])
 
         if game['is_link']:
             continue
@@ -113,8 +126,8 @@ def gen_excel(lang: str):
         if file_path.exists():
             continue
 
-        game_related_data = get_game_related_data(game_data['id'], lang)
-        track_data_list = get_playlist_data(game_related_data['allPlaylist']['id'], lang)['tracks']
+        related_playlist_data = get_related_playlist_data(game_data['id'], lang)
+        track_data_list = get_playlist_data(related_playlist_data['allPlaylist']['id'], lang)['tracks']
         track_dict: dict = {}
         game['track_dict'] = track_dict
         for track_index, track_data in enumerate(track_data_list, start=1):
@@ -141,10 +154,10 @@ def gen_excel(lang: str):
             }
             track_dict[track['id']] = track
 
-        for track_data in game_related_data['bestPlaylist']['tracks']:
+        for track_data in related_playlist_data['bestPlaylist']['tracks']:
             track_dict[track_data['id']]['is_best'] = True
 
-        for play_list_sum_data in game_related_data['miscPlaylistSet']['officialPlaylists']:
+        for play_list_sum_data in related_playlist_data['miscPlaylistSet']['officialPlaylists']:
             if play_list_sum_data['type'] == 'LOOP':
                 continue
             track_data_list = get_playlist_data(play_list_sum_data['id'], lang)['tracks']
@@ -180,7 +193,7 @@ def gen_excel(lang: str):
     if file_path.exists():
         file_path.unlink()
 
-    key_list = ['index', 'name', 'year', 'hardware', 'is_link', 'id', 'thumbnail_url']
+    key_list = ['index', 'name', 'year', 'hardware', 'related_game', 'is_link', 'id', 'thumbnail_url']
     save_csv(str(file_path), game_list, key_list)
 
     for game in game_list:
