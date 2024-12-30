@@ -28,7 +28,7 @@ class Game(TypedDict):
     name: str
     year: int
     hardware: str
-    related_game: list[str]
+    related_game: set[str]
     is_link: bool
     thumbnail_url: str
     track_dict: dict[str, 'Track']
@@ -134,11 +134,11 @@ def gen_excel(lang: str):
         print(f'{game_data['id']} {game_data['name']}')
         game: Game = {
             'id': game_data['id'],
-            'index': game_index,
+            'index': len(game_data_list) - game_index + 1,
             'name': game_data['name'],
             'year': 0,
             'hardware': game_data['formalHardware'],
-            'related_game': list(),
+            'related_game': set(),
             'is_link': game_data['isGameLink'],
             'thumbnail_url': game_data.get('thumbnailURL', ''),
             'track_dict': {}
@@ -146,7 +146,7 @@ def gen_excel(lang: str):
         game_dict[game['id']] = game
         related_game_data_list = get_related_game_data_list(game_data['id'], lang)
         for related_game_data in related_game_data_list:
-            game['related_game'].append(related_game_data['name'])
+            game['related_game'].add(related_game_data['name'])
 
         if game['is_link']:
             continue
@@ -214,9 +214,7 @@ def gen_excel(lang: str):
             if game_data['id'] in game_dict:
                 game_dict[game_data['id']]['year'] = year
 
-    game_list = sorted(game_dict.values(), key=lambda x: x['index'], reverse=True)
-    for game in game_list:
-        game['index'] = len(game_list) - game['index'] + 1
+    game_list = sorted(game_dict.values(), key=lambda x: x['index'])
 
     file_path = path / 'game.csv'
     if file_path.exists():
@@ -225,40 +223,27 @@ def gen_excel(lang: str):
     key_list = ['index', 'name', 'year', 'hardware', 'related_game', 'is_link', 'id', 'thumbnail_url']
     save_csv(str(file_path), game_list, key_list)
 
+    csv_path_list: list[Path] = []
     for game in game_list:
+        file_name = get_valid_filename(f'{game['name']}.csv')
+        file_path = path / file_name
+        if not game['is_link']:
+            csv_path_list.append(file_path)
         if not game['track_dict']:
             continue
         track_list = sorted(game['track_dict'].values(), key=lambda x: x['index'])
         key_list = ['index', 'name', 'duration', 'is_loop', 'is_best', 'playlist', 'playlist_other', 'id', 'thumbnail_url']
-        file_name = get_valid_filename(f'{game['name']}.csv')
-        file_path = path / file_name
         save_csv(str(file_path), track_list, key_list)
-
-    csv_path_list = [path / file for file in os.listdir(path) if file.endswith('.csv')]
-    sheet_list: list = []
-    for csv_path in csv_path_list:
-        sheet_name = csv_path.stem
-        index = 0
-        for game in game_list:
-            if get_valid_filename(game['name']) == sheet_name:
-                index = game['index']
-                break
-        sheet_list.append({
-            'index': index,
-            'sheet_name': sheet_name,
-            'csv_path': str(csv_path)
-        })
-    sheet_list.sort(key=lambda x: x['index'])
 
     file_path = Path('output') / f'Nintendo Music Database({lang}).xlsx'
     if file_path.exists():
         file_path.unlink()
     with pd.ExcelWriter(file_path) as writer:
-        for sheet in sheet_list:
-            df = pd.read_csv(sheet['csv_path'], escapechar='\\')
+        for csv_path in csv_path_list:
+            df = pd.read_csv(csv_path, escapechar='\\')
             if 'duration' in df.columns:
                 df['duration'] = df['duration'].apply(lambda x: f'{x // 60000}:{math.ceil(x / 1000) % 60:02d}')
-            df.to_excel(writer, sheet_name=sheet['sheet_name'], index=False)
+            df.to_excel(writer, sheet_name=csv_path.stem, index=False)
 
 
 def main(is_concurrency: bool = False):
