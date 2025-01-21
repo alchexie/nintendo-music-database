@@ -99,6 +99,10 @@ def get_game_group_data(grouping_policy: str, lang: str) -> dict:
     return game_group_data
 
 
+def get_valid_filename(s: str) -> str:
+    return re.sub(r'[<>:"/\\|?*]', '-', s.strip())
+
+
 def save_csv(file_path: str, data: list, key_list: Optional[list[str]] = None):
     if not key_list:
         key_list = list(data[0].keys())
@@ -118,10 +122,6 @@ def save_csv(file_path: str, data: list, key_list: Optional[list[str]] = None):
                     value = '|'.join(value).replace('"', '\\"')
                     value_list[i] = f'"{value}"'
             file.write(','.join(map(str, value_list)) + '\n')
-
-
-def get_valid_filename(s: str) -> str:
-    return re.sub(r'[<>:"/\\|?*]', '-', s.strip())
 
 
 def gen_excel(lang: str):
