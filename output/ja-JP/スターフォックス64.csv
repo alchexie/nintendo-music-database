@@ -27,7 +27,7 @@ index,name,duration,is_loop,is_best,playlist,playlist_other,id,thumbnail_url
 26,"ボスＢ",91175,True,True,"ボスバトル","","75aa40b7-bb52-4984-b3af-50613508adfa","https://image-assets.m.nintendo.com/cd4cd0d6-1b44-41d2-85f8-1a358d4a0da8"
 27,"ボスＣ",83794,True,True,"ボスバトル","","58657a54-7a04-4dcc-8968-3bd521103b68","https://image-assets.m.nintendo.com/a8286570-2ec8-49d8-917e-bdd4b266df1c"
 28,"アンドルフ",134061,True,True,"ボスバトル|高難度ルート","","a5801bd4-b34d-4e80-85b9-2a9554113a5d","https://image-assets.m.nintendo.com/ab30ec7a-2926-4768-91ae-1df38ba97809"
-29,"最終決戦",100967,True,True,"ボスバトル|高難度ルート","","8eeb16c1-d4c1-4d43-a8a5-bc10893c5094","https://image-assets.m.nintendo.com/df5292e1-75fe-49bf-a058-a0a2a6e49f48"
+29,"最終決戦",100967,True,True,"ボスバトル|高難度ルート","ラストバトル","8eeb16c1-d4c1-4d43-a8a5-bc10893c5094","https://image-assets.m.nintendo.com/df5292e1-75fe-49bf-a058-a0a2a6e49f48"
 30,"対戦",113829,True,False,"","","b0f6e021-734d-42bc-8301-5f047d0ba5e1","https://image-assets.m.nintendo.com/918e1eed-eb9c-4f93-b48b-cbb05a01a851"
 31,"対戦（１対１）",122403,True,False,"","","c537c074-75d7-4862-b318-ae2f89c4cf40","https://image-assets.m.nintendo.com/459be609-36c1-42e6-8cbb-18291ba2833e"
 32,"ビルのテーマ",6896,False,False,"","","2ccad54c-b844-488e-9d92-3f8ef70e89df","https://image-assets.m.nintendo.com/cd535a15-0fef-46d2-b665-53f2ae028bc4"

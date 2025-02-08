@@ -31,7 +31,7 @@ index,name,duration,is_loop,is_best,playlist,playlist_other,id,thumbnail_url
 30,"VS.メタリドリー",74919,True,True,"バトル","強敵たち","016a2afd-0cbf-4c22-8dd6-52fb5fc4379a","https://image-assets.m.nintendo.com/7ac65279-2fc5-4e85-bde3-8b12f6778e0c"
 31,"アーティファクト神殿～(チョウゾウの封印解除)",37023,False,False,"","","15dc7dfa-c596-4cda-8ba6-a98623da5e70","https://image-assets.m.nintendo.com/28d303be-7af2-4ae5-9d52-9faac80ce9cc"
 32,"VS.メトロイドプライム(スパイダー)",154843,False,True,"バトル","","56844ab8-7f29-4a5f-afef-5fbf436a82e8","https://image-assets.m.nintendo.com/284ab1ec-6e54-4bb4-a18d-5e8b048027b0"
-33,"VS.メトロイドプライム(ヘッド)",163178,False,True,"バトル","","ad471540-685c-40fd-9600-3323cee16924","https://image-assets.m.nintendo.com/6b2635f0-189f-4311-a186-cc0f61418476"
+33,"VS.メトロイドプライム(ヘッド)",163178,False,True,"バトル","ラストバトル","ad471540-685c-40fd-9600-3323cee16924","https://image-assets.m.nintendo.com/6b2635f0-189f-4311-a186-cc0f61418476"
 34,"神殿崩落～エピローグ",59948,False,False,"","","557766fd-4858-4baa-b0c4-2c4ad2302549","https://image-assets.m.nintendo.com/05acb1ae-6b3b-4996-b87b-2fd6cf42879a"
 35,"エンディングスタッフロール",191336,False,True,"","","2ef6ae7e-f864-48f7-9753-7ca2fb159a05","https://image-assets.m.nintendo.com/0d374cde-68cc-46e8-90cb-1be103508e7d"
 36,"レコード・オブ・サムス",169845,True,False,"","","cbda3861-5f90-4bc8-b888-38bcd05da158","https://image-assets.m.nintendo.com/4735b33c-e82e-4d45-b9c4-4aa8b164d8f9"

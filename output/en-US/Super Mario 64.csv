@@ -30,7 +30,7 @@ index,name,duration,is_loop,is_best,playlist,playlist_other,id,thumbnail_url
 29,"Lethal Lava Land",161654,True,True,"","","e781833b-6265-49c8-bd78-410f053e6cfa","https://image-assets.m.nintendo.com/919bbf62-aacb-4121-ba80-6184e03179ee"
 30,"Game Over",15392,False,False,"","","2f2548cd-ad52-4a25-9524-ba5d132bfe9c","https://image-assets.m.nintendo.com/e547fe0c-2bbb-484f-beb3-915db611bd93"
 31,"The Endless Stairs",25568,True,False,"","","7b949a5f-6d8d-4c44-90fd-5e5d844e19b0","https://image-assets.m.nintendo.com/1f5202af-37db-496b-bba8-651df68bcb9f"
-32,"The Final Battle",169267,True,True,"Bowser","","ddbd8a8d-5e88-47fb-94fb-788b39bb587a","https://image-assets.m.nintendo.com/7106eb24-08f9-4e0a-8be2-728289a0f4a7"
+32,"The Final Battle",169267,True,True,"Bowser","The Final Battles","ddbd8a8d-5e88-47fb-94fb-788b39bb587a","https://image-assets.m.nintendo.com/7106eb24-08f9-4e0a-8be2-728289a0f4a7"
 33,"Final Battle Clear",25984,False,False,"","Victory!","d3a07ff6-03ae-4d05-ae9c-c977df885ba8","https://image-assets.m.nintendo.com/a570ff59-36bd-4eb8-8c9c-737c991c2202"
 34,"Ending",74563,False,True,"Peach","","c09a5619-4a3d-4dda-baa7-6375ee26b002","https://image-assets.m.nintendo.com/48941a73-221a-429b-8c25-f9e84cc51f81"
 35,"Staff Roll",201891,False,True,"","","99c910a3-4c3e-4b91-b1de-9f8ec70f7a7b","https://image-assets.m.nintendo.com/d0bc3a81-efbf-44fa-abb1-a27b468e7a91"

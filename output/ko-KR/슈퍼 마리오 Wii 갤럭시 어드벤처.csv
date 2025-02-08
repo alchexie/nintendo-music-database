@@ -20,7 +20,7 @@ index,name,duration,is_loop,is_best,playlist,playlist_other,id,thumbnail_url
 19,"King Bowser",192433,False,True,"보스 배틀|쿠파","","908a0fb5-9d0a-4872-81d9-a9c9ccf400b4","https://image-assets.m.nintendo.com/0b6aa163-a4e1-460d-8015-41a1826dc982"
 20,"Melty Molten Galaxy",246026,True,True,"갤럭시 투어","","b962ae32-44f7-40fd-99a6-bf964faaad1a","https://image-assets.m.nintendo.com/060947fa-db7d-495a-893c-3c60fd721107"
 21,"The Galaxy Reactor",144894,True,True,"갤럭시 투어|쿠파","","4616e4d3-a137-4282-8a1d-0cdbc2c36369","https://image-assets.m.nintendo.com/04f9ea75-46cc-4fa1-81f4-e09cc378a1cc"
-22,"Final Battle with Bowser",142520,True,True,"보스 배틀|쿠파","","af591c90-bb3c-49d5-aced-1038a4293701","https://image-assets.m.nintendo.com/7651fc1c-0c71-4783-b4ee-3812f4274cdc"
+22,"Final Battle with Bowser",142520,True,True,"보스 배틀|쿠파","라스트 배틀","af591c90-bb3c-49d5-aced-1038a4293701","https://image-assets.m.nintendo.com/7651fc1c-0c71-4783-b4ee-3812f4274cdc"
 23,"Daybreak - A New Dawn",53824,False,False,"","","04b585ca-20a2-4aac-9be9-384ee45bd813","https://image-assets.m.nintendo.com/8ec64a23-382a-4957-9c70-6fffb92acf61"
 24,"Birth",113903,True,False,"","","4a370094-d27f-44b7-84ca-7c9dfafab842","https://image-assets.m.nintendo.com/3f086685-71f7-45a6-ad32-3dc685f19a68"
 25,"Super Mario Galaxy",240987,False,True,"","","ec6f7520-8bdd-488c-a98f-827b9293f1d3","https://image-assets.m.nintendo.com/d1d81500-ff09-408f-9bd8-ade90daf472a"

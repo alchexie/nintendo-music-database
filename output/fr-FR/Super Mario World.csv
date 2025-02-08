@@ -41,7 +41,7 @@ index,name,duration,is_loop,is_best,playlist,playlist_other,id,thumbnail_url
 40,"Castle Clear Scene BGM",12576,False,False,"","","44e0535c-3fdf-462b-bf16-daf3b23502a9","https://image-assets.m.nintendo.com/8097e54c-f694-4062-bf7b-0e13118409af"
 41,"Bowser's Castle Appears",6365,False,False,"Bowser","","13f175f9-34e1-4eae-86f2-281b165b26fe","https://image-assets.m.nintendo.com/8978e304-33ec-4eec-8314-58eae74e0959"
 42,"Valley of Bowser (Map Screen)",34466,True,True,"Bowser|Dino-Land","","c5b19bc7-9fd7-4778-90c4-23207a80118e","https://image-assets.m.nintendo.com/5ca979ff-8b97-47cd-8acf-f6172b4bebf9"
-43,"Bowser BGM (Phase 1)",119619,True,True,"Bowser","","e3c0bd39-21b2-4a03-8fc9-cae1f2e3edb4","https://image-assets.m.nintendo.com/0630653c-3804-4c92-8465-6af0f7ca35c2"
+43,"Bowser BGM (Phase 1)",119619,True,True,"Bowser","Ultimes batailles","e3c0bd39-21b2-4a03-8fc9-cae1f2e3edb4","https://image-assets.m.nintendo.com/0630653c-3804-4c92-8465-6af0f7ca35c2"
 44,"Bowser BGM (Phase 2)",100761,True,False,"Bowser","","164a196b-935d-4275-87b5-d5be0515fcb0","https://image-assets.m.nintendo.com/a5ae46ab-a5ac-4061-9c4a-9bd450e67855"
 45,"Bowser BGM (Phase 3)",94490,True,False,"Bowser","","394c3339-294b-44ad-b0c8-d366a3b9d609","https://image-assets.m.nintendo.com/7c23f4ae-bd61-4528-89ea-93299578f2e9"
 46,"Rescuing Princess Peach",15882,False,True,"Peach","Victoire !","49390c89-284a-4b7f-951a-6cfdd85c8f5d","https://image-assets.m.nintendo.com/24d95154-e550-44c8-9b7d-e33fe159dec3"

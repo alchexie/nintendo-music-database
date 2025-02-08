@@ -77,7 +77,7 @@ index,name,duration,is_loop,is_best,playlist,playlist_other,id,thumbnail_url
 76,"Ganon's Tower",204035,False,True,"加侬·加侬多夫|迷宫","","d74dcda6-6faa-443d-bf9d-3975e578a4d1","https://image-assets.m.nintendo.com/971a43b3-9c10-4c62-b8b2-ce3aa1357792"
 77,"Ganondorf Battle",70238,True,True,"加侬·加侬多夫|战斗","","830f11b1-c9af-4a5b-a0fb-d1b0aff84130","https://image-assets.m.nintendo.com/98f4eb92-de0a-4e59-9531-256a97191bf1"
 78,"Escape from Ganon's Castle",31209,False,False,"加侬·加侬多夫","","93cc2259-a3c5-4629-a076-30f74685db77","https://image-assets.m.nintendo.com/3c65a103-353d-44a6-9076-eaeeee131ce6"
-79,"Last Battle",128635,True,True,"加侬·加侬多夫|战斗","","e88b09c5-04ab-498e-b138-23a8d8957a00","https://image-assets.m.nintendo.com/cedfbf3c-7f60-4f3d-bb0e-f7cdbadee0ee"
+79,"Last Battle",128635,True,True,"加侬·加侬多夫|战斗","最终决战","e88b09c5-04ab-498e-b138-23a8d8957a00","https://image-assets.m.nintendo.com/cedfbf3c-7f60-4f3d-bb0e-f7cdbadee0ee"
 80,"Seal of the Six Sages",27345,False,False,"","","47eaea14-fd23-41e5-861b-9a5030648a60","https://image-assets.m.nintendo.com/15180e77-db91-4f70-94a9-8f6c59f0c9c9"
 81,"Ocarina of Time",30397,False,True,"塞尔达|笛子","","3ab3f586-a5a9-46ed-ac07-2bf80265a130","https://image-assets.m.nintendo.com/55bec1d5-084b-419e-9c12-f166644b8f06"
 82,"End Credits",428089,False,True,"","","c6516426-1202-44a7-aef7-eed02dd9a952","https://image-assets.m.nintendo.com/2e795f78-f0e5-40b2-9b37-454c8b192076"
