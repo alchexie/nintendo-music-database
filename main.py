@@ -19,7 +19,7 @@ import requests
 # https://api.m.nintendo.com/catalog/officialPlaylists/772a2b39-c35d-43fd-b3b1-bf267c01f342?country=JP&lang=ja-JP&membership=BASIC&packageType=hls_cbcs&sdkVersion=ios-1.4.0_f362763-1
 
 host = 'https://api.m.nintendo.com'
-lang_list = ['zh-CN', 'en-US', 'ja-JP', 'zh-TW', 'fr-FR', 'de-DE', 'it-IT', 'es-ES', 'ko-KR']
+# lang_list = ['zh-TW', 'fr-FR', 'de-DE', 'it-IT', 'es-ES', 'ko-KR']
 lang_list = ['zh-CN', 'en-US', 'ja-JP']  # IETF
 
 
@@ -126,6 +126,7 @@ def save_csv(file_path: str, data: list, key_list: Optional[list[str]] = None):
 
 
 def gen_excel(lang: str):
+    print(f'Generating {lang}...')
     path = Path('output') / lang
     path.mkdir(parents=True, exist_ok=True)
 
