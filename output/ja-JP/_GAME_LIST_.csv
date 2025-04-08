@@ -49,3 +49,5 @@ index,name,year,hardware,related_game,is_link,id,thumbnail_url
 48,"Tetris®（ゲームボーイ版）",1989,"ゲームボーイ","",False,"7770d07d-98d7-4d79-b821-85c466040938","https://image-assets.m.nintendo.com/bbdb0332-a661-40a7-8efb-1a2aecae6724"
 49,"星のカービィ　ディスカバリー",2022,"Nintendo Switch","",False,"ba7a0098-9118-4a35-b52b-44b6a9cbfb14","https://image-assets.m.nintendo.com/155aa8a1-9b87-49a8-b1f1-405a04e81bf8"
 50,"F-ZERO",1990,"スーパーファミコン","F-ZERO X",False,"e534827d-d045-4a0d-b5c1-b95bd31d514e","https://image-assets.m.nintendo.com/b4b52d52-edb5-4b42-8764-8f29daafb50b"
+51,"ルイージマンション",2018,"ニンテンドー3DS","",True,"6f155eed-5512-4506-8ce7-b82e880e40e3","https://image-assets.m.nintendo.com/69ff0ace-ca60-448b-ba91-effcaf954a05"
+52,"ルイージマンション",2001,"ニンテンドーゲームキューブ","",False,"8baa4c28-2ad7-4628-9526-0cd2504ad69a","https://image-assets.m.nintendo.com/f963604a-c2a7-4620-ab69-c68349520792"
