@@ -1,0 +1,13 @@
+index,name,duration,is_loop,is_best,playlist,playlist_other,id,thumbnail_url
+1,"タイトルBGM",174806,True,True,"","","e4836022-d604-4ce5-8b21-9ee882fc0849","https://image-assets.m.nintendo.com/a91d74ff-801a-4d6d-900b-61d141f5df2a"
+2,"地上BGM",85370,True,True,"","","6ac85bbe-4b9b-463d-8d4c-cdf195efd4c1","https://image-assets.m.nintendo.com/6e474c06-9da0-433d-bb75-eed008f99a9c"
+3,"謎解き正解音",2189,False,False,"","","a328d73d-6893-4c21-99d0-4316aaf2eb51","https://image-assets.m.nintendo.com/dd488af3-bae1-4c44-b12e-9b27c91e005e"
+4,"宝物キャッチファンファーレ",2032,False,False,"","","db1bae7d-f918-47e6-91f6-afa70b8c0754","https://image-assets.m.nintendo.com/348ce61c-a7b7-4505-a791-349775908b46"
+5,"地下BGM",53689,True,True,"","","1a185134-294d-4503-b8d0-4d2e68e994af","https://image-assets.m.nintendo.com/a8055e34-4799-400d-95f2-734b454422c8"
+6,"トライフォースキャッチファンファーレ",7973,False,True,"","","66976da7-8d5b-4528-b7c9-8080b97c7bb4","https://image-assets.m.nintendo.com/3ebd4a70-0119-46fb-8eae-15c9fd14b052"
+7,"笛",3538,False,False,"","","2c9eb939-e965-4e21-9250-cfc0d0183f5f","https://image-assets.m.nintendo.com/ad9ff775-68ec-4ec8-a10b-a81ef70ee0f8"
+8,"ゲームオーバー",36385,True,False,"","","30c377c5-dda7-4801-925b-5b146c53f6ab","https://image-assets.m.nintendo.com/8fe4182d-fce3-4d67-a2f6-11fd1819942c"
+9,"デスマウンテンBGM",59812,True,True,"","","aef58bb6-c464-42fb-acf4-566132c94063","https://image-assets.m.nintendo.com/0244c45c-e8a5-4f48-81c8-ce3add2378a0"
+10,"ガノン登場および倒したときのファンファーレ",3796,False,False,"","","914c7be7-6540-404f-8294-24f7186c13ad","https://image-assets.m.nintendo.com/b02a05c3-d87b-4be0-b2d8-34d6c66887d7"
+11,"ゼルダを助けたときのファンファーレ",5404,False,True,"","","5228aa9c-d60f-4fcd-9ab0-7bbd1e717728","https://image-assets.m.nintendo.com/4c2e486f-1eee-4943-a1a0-5e1c3c25e65a"
+12,"エンディングテーマ",112042,True,True,"","","405e2721-72e6-497a-bda5-8d5a43db8912","https://image-assets.m.nintendo.com/131b4f82-9b58-4d04-bc66-7d21046d05a1"
