@@ -19,8 +19,8 @@ import requests
 # https://api.m.nintendo.com/catalog/officialPlaylists/772a2b39-c35d-43fd-b3b1-bf267c01f342?country=JP&lang=ja-JP&membership=BASIC&packageType=hls_cbcs&sdkVersion=ios-1.4.0_f362763-1
 
 host = 'https://api.m.nintendo.com'
-# lang_list = ['zh-TW', 'fr-FR', 'de-DE', 'it-IT', 'es-ES', 'ko-KR']
-lang_list = ['zh-CN', 'en-US', 'ja-JP']  # IETF
+lang_list = ['zh-CN', 'en-US', 'ja-JP', 'zh-TW', 'fr-FR', 'de-DE', 'it-IT', 'es-ES', 'ko-KR']
+# lang_list = ['zh-CN', 'en-US', 'ja-JP']  # IETF
 
 
 class Game(TypedDict):
@@ -126,6 +126,26 @@ def save_csv(file_path: str, data: list, key_list: Optional[list[str]] = None):
             file.write(','.join(map(str, value_list)) + '\n')
 
 
+def load_csv(file_path: str) -> list[dict]:
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+    key_list = lines[0].strip().split(',')
+    data = []
+    for line in lines[1:]:
+        value_list = line.strip().split(',')
+        item: dict = {}
+        for i, key in enumerate(key_list):
+            value = value_list[i]
+            if value.startswith('"') and value.endswith('"'):
+                value = value[1:-1].replace('\\"', '"')
+            if '|' in value:
+                item[key] = set(value.split('|'))
+            else:
+                item[key] = value
+        data.append(item)
+    return data
+
+
 def gen_excel(lang: str):
     print(f'Generating {lang}...')
     path = Path('output') / lang
@@ -157,6 +177,21 @@ def gen_excel(lang: str):
         file_name = get_valid_filename(f'{game_data['name']}.csv')
         file_path = path / file_name
         if file_path.exists():
+            track_dict = game['track_dict']
+            for track_data in load_csv(str(file_path)):
+                track: Track = {
+                    'id': track_data['id'],
+                    'index': track_data['index'],
+                    'name': track_data['name'],
+                    'duration': track_data['duration'],
+                    'is_loop': track_data['is_loop'],
+                    'is_best': track_data['is_best'],
+                    'playlist': track_data['playlist'],
+                    'playlist_2': track_data['playlist_2'],
+                    'playlist_3': track_data['playlist_3'],
+                    'thumbnail_url': track_data['thumbnail_url'],
+                }
+                track_dict[track['id']] = track
             continue
 
         related_playlist_data = get_related_playlist_data(game_data['id'], lang)
@@ -173,7 +208,7 @@ def gen_excel(lang: str):
             else:
                 duration = payload_data['durationMillis']
 
-            track: Track = {
+            track = {
                 'id': track_data['id'],
                 'index': track_index,
                 'name': track_data['name'],
@@ -212,7 +247,9 @@ def gen_excel(lang: str):
                         game['track_dict'][track_id]['playlist_2'].add(playlist_data['name'])
 
     for section_data in data['commonSections']:
-        if section_data['name'] == '听听看吧':
+        if section_data['name'] != '听听看吧':
+            continue
+        for play_list_sum_data in section_data['playlists']:
             playlist_data = get_playlist_data(play_list_sum_data['id'], lang)
             for track_data in playlist_data['tracks']:
                 game_id = track_data['game']['id']
@@ -246,7 +283,7 @@ def gen_excel(lang: str):
             csv_path_list.append(file_path)
         if not game['track_dict']:
             continue
-        track_list = sorted(game['track_dict'].values(), key=lambda x: x['index'])
+        track_list = sorted(track_dict.values(), key=lambda x: x['index'])
         key_list = ['index', 'name', 'duration', 'is_loop', 'is_best', 'playlist', 'playlist_2', 'playlist_3', 'id', 'thumbnail_url']
         save_csv(str(file_path), track_list, key_list)
 
