@@ -19,7 +19,7 @@ import requests
 # https://api.m.nintendo.com/catalog/officialPlaylists/772a2b39-c35d-43fd-b3b1-bf267c01f342?country=JP&lang=ja-JP&membership=BASIC&packageType=hls_cbcs&sdkVersion=ios-1.4.0_f362763-1
 
 host = 'https://api.m.nintendo.com'
-lang_list = ['zh-CN', 'en-US', 'ja-JP', 'zh-TW', 'fr-FR', 'de-DE', 'it-IT', 'es-ES', 'ko-KR']
+lang_list = ['zh-TW', 'fr-FR', 'de-DE', 'it-IT', 'es-ES', 'ko-KR']
 # lang_list = ['zh-CN', 'en-US', 'ja-JP']  # IETF
 
 
@@ -177,21 +177,21 @@ def gen_excel(lang: str):
         file_name = get_valid_filename(f'{game_data['name']}.csv')
         file_path = path / file_name
         if file_path.exists():
-            track_dict = game['track_dict']
-            for track_data in load_csv(str(file_path)):
-                track: Track = {
-                    'id': track_data['id'],
-                    'index': track_data['index'],
-                    'name': track_data['name'],
-                    'duration': track_data['duration'],
-                    'is_loop': track_data['is_loop'],
-                    'is_best': track_data['is_best'],
-                    'playlist': track_data['playlist'],
-                    'playlist_2': track_data['playlist_2'],
-                    'playlist_3': track_data['playlist_3'],
-                    'thumbnail_url': track_data['thumbnail_url'],
-                }
-                track_dict[track['id']] = track
+            # track_dict = game['track_dict']
+            # for track_data in load_csv(str(file_path)):
+            #     track: Track = {
+            #         'id': track_data['id'],
+            #         'index': track_data['index'],
+            #         'name': track_data['name'],
+            #         'duration': track_data['duration'],
+            #         'is_loop': track_data['is_loop'],
+            #         'is_best': track_data['is_best'],
+            #         'playlist': track_data['playlist'],
+            #         'playlist_2': track_data['playlist_2'],
+            #         'playlist_3': track_data['playlist_3'],
+            #         'thumbnail_url': track_data['thumbnail_url'],
+            #     }
+            #     track_dict[track['id']] = track
             continue
 
         related_playlist_data = get_related_playlist_data(game_data['id'], lang)
@@ -208,7 +208,7 @@ def gen_excel(lang: str):
             else:
                 duration = payload_data['durationMillis']
 
-            track = {
+            track: Track = {
                 'id': track_data['id'],
                 'index': track_index,
                 'name': track_data['name'],
