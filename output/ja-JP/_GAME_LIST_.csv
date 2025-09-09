@@ -40,7 +40,7 @@ index,name,year,hardware,related_game,is_link,id,thumbnail_url
 39,"スーパーマリオカート",1992,"スーパーファミコン","マリオカート64|マリオカート７|マリオカート８ デラックス",False,"5697264d-4c24-4b3c-b5ab-6df55e97c15f","https://image-assets.m.nintendo.com/d07a8349-7b46-4f3f-8503-c30ccf65f826"
 40,"Pokémon LEGENDS アルセウス",2022,"Nintendo Switch","ポケットモンスター スカーレット・バイオレット|ポケットモンスター ソード・シールド",False,"ff64323c-18b3-4cbd-b78e-0d1d3c7b5da7","https://image-assets.m.nintendo.com/c6828d13-3c14-48f6-86bc-7c56f3e3052f"
 41,"スーパーマリオワールド",1990,"スーパーファミコン","New スーパーマリオブラザーズ U デラックス|スーパーマリオ オデッセイ|スーパーマリオ64|スーパーマリオUSA|スーパーマリオギャラクシー|スーパーマリオブラザーズ|スーパーマリオブラザーズ ワンダー|スーパーマリオブラザーズ3",False,"1affab73-5947-4942-8865-837f84b49570","https://image-assets.m.nintendo.com/2ab10162-4c33-4baa-9573-f05e63f95662"
-42,"黄金の太陽～開かれし封印～",2001,"ゲームボーイアドバンス","",False,"e302d510-390e-4e31-a73e-6f5fef6fcb2d","https://image-assets.m.nintendo.com/8272eafe-2990-47ea-bbca-57c4c4da5901"
+42,"黄金の太陽～開かれし封印～",2001,"ゲームボーイアドバンス","黄金の太陽〜失われし時代〜",False,"e302d510-390e-4e31-a73e-6f5fef6fcb2d","https://image-assets.m.nintendo.com/8272eafe-2990-47ea-bbca-57c4c4da5901"
 43,"すれちがいMii広場",2011,"ニンテンドー3DS","",False,"e3fc8a8d-93d1-46e0-8996-f2869b63c52b","https://image-assets.m.nintendo.com/13d5e1bc-81dc-42b3-8988-4f93d054dfe7"
 44,"スーパーマリオUSA",1988,"ファミリーコンピュータ","New スーパーマリオブラザーズ U デラックス|スーパーマリオ オデッセイ|スーパーマリオ64|スーパーマリオギャラクシー|スーパーマリオブラザーズ|スーパーマリオブラザーズ ワンダー|スーパーマリオブラザーズ3|スーパーマリオワールド",False,"39ef12b8-5128-4e7c-95b3-e12f22274e51","https://image-assets.m.nintendo.com/c93a6186-79c5-41b5-bcff-76b322c8cad2"
 45,"ゼルダの伝説 神々のトライフォース",1991,"スーパーファミコン","ゼルダの伝説|ゼルダの伝説 スカイウォードソード|ゼルダの伝説 時のオカリナ|ゼルダの伝説 時のオカリナ 3D|ゼルダの伝説 風のタクト|ゼルダの伝説　ティアーズ オブ ザ キングダム|ゼルダの伝説　ブレス オブ ザ ワイルド|ゼルダの伝説１（カセット版）",False,"2e710695-0ea6-425b-b0b5-d49012e7c1a4","https://image-assets.m.nintendo.com/aeb02f56-d43c-417a-97b6-d4d7b10aa36d"
@@ -101,3 +101,4 @@ index,name,year,hardware,related_game,is_link,id,thumbnail_url
 100,"進め！キノピオ隊長",2014,"Wii U","",True,"ff77b569-5c0a-4596-9374-8e6af309d58b","https://image-assets.m.nintendo.com/12019225-bc57-4ab0-994a-7b4e9840bb55"
 101,"進め！キノピオ隊長",2018,"Nintendo Switch","",False,"c01093c9-916a-4e3e-8dd9-1d63401875bf","https://image-assets.m.nintendo.com/90607d62-0bee-4325-babf-5318f8df4772"
 102,"ファイアーエムブレム 覚醒",2012,"ニンテンドー3DS","ファイアーエムブレム エンゲージ|ファイアーエムブレム 烈火の剣",False,"9c6dfecb-7465-4ead-b7c5-ec6d1f33994b","https://image-assets.m.nintendo.com/3446e427-db6b-4721-8b9e-7babc29bc56e"
+103,"黄金の太陽〜失われし時代〜",2002,"ゲームボーイアドバンス","黄金の太陽～開かれし封印～",False,"cb9e5ab0-49e2-4ea8-81ec-ba23b069dedf","https://image-assets.m.nintendo.com/dbbcdffb-d7b9-4577-ab0f-8f3faee414d4"
