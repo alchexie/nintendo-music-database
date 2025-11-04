@@ -22,7 +22,7 @@ index,name,year,hardware,related_game,is_link,id,thumbnail_url
 21,"マリオカート８ デラックス",2017,"Nintendo Switch","スーパーマリオカート|マリオカート64|マリオカート７",False,"32516e30-667c-4c14-ac1f-fbae00910d86","https://image-assets.m.nintendo.com/9c33162c-d545-407b-ac85-3b614f62c6df"
 22,"スーパーマリオ オデッセイ",2017,"Nintendo Switch","New スーパーマリオブラザーズ|New スーパーマリオブラザーズ U デラックス|スーパーマリオ64|スーパーマリオUSA|スーパーマリオギャラクシー|スーパーマリオギャラクシー ２|スーパーマリオブラザーズ|スーパーマリオブラザーズ ワンダー|スーパーマリオブラザーズ3|スーパーマリオワールド",False,"4ac191a0-883d-47e5-8818-4d6c95f4f7b1","https://image-assets.m.nintendo.com/9caaa8aa-6411-4473-8dd5-bea3f6ca7590"
 23,"星のカービィ　スターアライズ",2018,"Nintendo Switch","星のカービィ|星のカービィ　ディスカバリー",False,"b9dbd022-9881-4d77-a7af-d0972cd87c51","https://image-assets.m.nintendo.com/6ae382e1-a77f-4be1-aa6f-e0ad33978441"
-24,"あつまれ どうぶつの森",2020,"Nintendo Switch","",False,"76360835-b0c6-4828-846b-efd514d01127","https://image-assets.m.nintendo.com/1ab945cd-1fbc-434f-b0f8-b379f9cf171a"
+24,"あつまれ どうぶつの森",2020,"Nintendo Switch","とびだせ どうぶつの森",False,"76360835-b0c6-4828-846b-efd514d01127","https://image-assets.m.nintendo.com/1ab945cd-1fbc-434f-b0f8-b379f9cf171a"
 25,"スプラトゥーン3",2022,"Nintendo Switch","スプラトゥーン|スプラトゥーン2",False,"5bd86aee-7a21-4aac-a894-bb3f98d0cc91","https://image-assets.m.nintendo.com/8c13dea5-15ef-49e6-8fdb-73e0a8f442a6"
 26,"ポケットモンスター スカーレット・バイオレット",2022,"Nintendo Switch","Pokémon LEGENDS アルセウス|ポケットモンスター ソード・シールド",False,"ecb10bab-6cf6-4f72-8c0d-a2bdabaf740a","https://image-assets.m.nintendo.com/09adaf9f-3b41-4037-ab20-f49791292ccf"
 27,"ピクミン４",2023,"Nintendo Switch","",False,"4da252fa-2706-49f2-a21b-fb8443d2584a","https://image-assets.m.nintendo.com/3b21e126-74c6-44e3-b023-71a4afa95926"
@@ -112,3 +112,4 @@ index,name,year,hardware,related_game,is_link,id,thumbnail_url
 111,"ペーパーマリオRPG（Nintendo Switch版）",2024,"Nintendo Switch","ペーパーマリオRPG（ゲームキューブ版）",False,"17503f02-da6b-46c7-8481-a1ed974451c6","https://image-assets.m.nintendo.com/8ff5a49f-e37b-4a9a-9838-1e6bbf0784b8"
 112,"メトロイドII RETURN OF SAMUS",1991,"ゲームボーイ","メトロイド|メトロイドプライム|メトロイド（NES版）",False,"2f76e24d-332a-4828-b185-109540d94fa4","https://image-assets.m.nintendo.com/9f1cb08f-0508-47ab-9975-6b2babc3119c"
 113,"New スーパーマリオブラザーズ",2006,"ニンテンドーDS","New スーパーマリオブラザーズ U デラックス|スーパーマリオ オデッセイ|スーパーマリオ64|スーパーマリオUSA|スーパーマリオギャラクシー|スーパーマリオギャラクシー ２|スーパーマリオブラザーズ|スーパーマリオブラザーズ ワンダー|スーパーマリオブラザーズ3|スーパーマリオワールド",False,"cb7c3bca-4a8b-4273-855a-bb6e47dfc5e3","https://image-assets.m.nintendo.com/c9807651-cdb8-4438-b152-b3d781392bc1"
+114,"とびだせ どうぶつの森",2012,"ニンテンドー3DS","あつまれ どうぶつの森",False,"00a1d178-fb71-49fc-b835-74ebaec97474","https://image-assets.m.nintendo.com/e0dceb73-9232-498a-a30d-aa9667933fe1"
