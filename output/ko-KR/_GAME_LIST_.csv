@@ -114,3 +114,5 @@ index,name,year,hardware,related_game,is_link,id,thumbnail_url
 113,"뉴 슈퍼 마리오브라더스",2006,"Nintendo DS","Super Mario 64|Super Mario Bros. Wonder|뉴 슈퍼 마리오브라더스 U 디럭스|슈퍼 마리오 Wii 2 갤럭시 어드벤처 투게더|슈퍼 마리오 Wii 갤럭시 어드벤처|슈퍼 마리오 오디세이|슈퍼 마리오 월드|슈퍼 마리오브라더스|슈퍼 마리오브라더스 2|슈퍼 마리오브라더스 3",False,"cb7c3bca-4a8b-4273-855a-bb6e47dfc5e3","https://image-assets.m.nintendo.com/49fe045f-1eab-444b-b4d9-458eea0e9b7e"
 114,"튀어나와요 동물의 숲",2012,"Nintendo 3DS","모여봐요 동물의 숲",False,"00a1d178-fb71-49fc-b835-74ebaec97474","https://image-assets.m.nintendo.com/796b2617-3536-4467-b183-b87227a53393"
 115,"커비의 드림 뷔페",2022,"Nintendo Switch","Kirby's Dream Land|별의 커비 디스커버리|별의 커비 스타 얼라이즈",False,"eb49a973-97d3-4ced-9131-0883a7f400ee","https://image-assets.m.nintendo.com/784fe63e-2027-4c8c-999c-f61f0a748de4"
+116,"Wii Fit",2007,"Wii","",True,"cf340f42-165c-4939-8ba5-39b2b99ec038","https://image-assets.m.nintendo.com/fcb7bb4d-9850-41ab-9c30-98e9f89e9879"
+117,"Wii Fit Plus",2009,"Wii","",False,"177f02d4-bfd9-4b46-8b1b-c91896eba711","https://image-assets.m.nintendo.com/508f66b4-07ea-4387-9879-184c26f6ae4d"
