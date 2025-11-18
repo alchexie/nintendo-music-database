@@ -1,2 +1,4 @@
 *.xlsx
 *.rar
+.mypy_cache/
+__pycache__/

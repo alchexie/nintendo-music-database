@@ -63,7 +63,7 @@ def get_api(url: str, params: dict, retry_count: int = 5) -> dict | list:
 playlist_data_dict: dict[str, dict[str, dict]] = {}
 
 
-def get_playlist_data(id, lang: str) -> dict:
+def get_playlist_data(id, lang: str = 'zh-CN') -> dict:
     if lang not in playlist_data_dict:
         playlist_data_dict[lang] = {}
     if id in playlist_data_dict[lang]:
@@ -76,7 +76,7 @@ def get_playlist_data(id, lang: str) -> dict:
     return playlist_data
 
 
-def get_related_playlist_data(id, lang: str) -> dict:
+def get_related_playlist_data(id, lang: str = 'zh-CN') -> dict:
     url = f'{host}/catalog/games/{id}/relatedPlaylists'
     related_playlist_data = get_api(url, {'country': 'JP', 'lang': lang, 'membership': 'BASIC', 'packageType': 'hls_cbcs', 'sdkVersion': 'ios-1.4.0_f362763-1'})
     if not isinstance(related_playlist_data, dict):
@@ -84,7 +84,7 @@ def get_related_playlist_data(id, lang: str) -> dict:
     return related_playlist_data
 
 
-def get_related_game_data_list(id, lang: str) -> list[dict]:
+def get_related_game_data_list(id, lang: str = 'zh-CN') -> list[dict]:
     url = f'{host}/catalog/games/{id}/relatedGames'
     related_game_data_list = get_api(url, {'country': 'JP', 'lang': lang})
     if not isinstance(related_game_data_list, list):
@@ -92,7 +92,7 @@ def get_related_game_data_list(id, lang: str) -> list[dict]:
     return related_game_data_list
 
 
-def get_all_game_data(lang: str) -> list[dict]:
+def get_all_game_data(lang: str = 'zh-CN') -> list[dict]:
     url = f'{host}/catalog/games:all'
     game_data_list = get_api(url, {'country': 'JP', 'lang': lang, 'sortRule': 'RECENT'})
     if not isinstance(game_data_list, list):
@@ -100,7 +100,7 @@ def get_all_game_data(lang: str) -> list[dict]:
     return game_data_list
 
 
-def get_game_group_data(grouping_policy: str, lang: str) -> dict:
+def get_game_group_data(grouping_policy: str, lang: str = 'zh-CN') -> dict:
     url = f'{host}/catalog/gameGroups'
     game_group_data = get_api(url, {'country': 'JP', 'groupingPolicy': grouping_policy, 'lang': lang})
     if not isinstance(game_group_data, dict):
