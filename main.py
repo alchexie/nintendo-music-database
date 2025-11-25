@@ -7,6 +7,8 @@ from typing import Optional, TypedDict
 import csv
 import pandas as pd
 import requests
+# https://www.nintendo.com/hk/nintendo-music/titles/ 可查询游戏曲目更新日期
+
 # https://api.m.nintendo.com/catalog/games:all?country=JP&lang=en-US&sortRule=RECENT
 # https://api.m.nintendo.com/catalog/gameGroups?country=JP&groupingPolicy=RELEASEDAT&lang=en-US
 # https://api.m.nintendo.com/catalog/gameGroups?country=JP&groupingPolicy=HARDWARE&lang=en-US
