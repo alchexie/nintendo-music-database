@@ -51,6 +51,7 @@ def get_api(url: str, params: dict, retry_count: int = 5) -> dict | list:
     for _ in range(retry_count):
         try:
             response = requests.get(url, params=params, timeout=10)
+            response.headers['User-Agent'] = 'Nintendo Music/1.4.0 (com.nintendo.znba; build:25101508; iOS 26.1.0) Alamofire/5.10.2'
             if response.status_code == 200:
                 return response.json()
             else:
