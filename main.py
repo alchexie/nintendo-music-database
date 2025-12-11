@@ -20,6 +20,9 @@ import requests
 # https://api.m.nintendo.com/catalog/officialPlaylists/772a2b39-c35d-43fd-b3b1-bf267c01f342?country=JP&lang=ja-JP&membership=BASIC&packageType=hls_cbcs&sdkVersion=ios-1.4.0_f362763-1
 # https://api.m.nintendo.com/catalog/officialPlaylists/772a2b39-c35d-43fd-b3b1-bf267c01f342?country=JP&lang=ja-JP&membership=BASIC&packageType=hls_clear&sdkVersion=ios-1.4.0_f362763-1
 
+# https://api.m.nintendo.com/catalog/tracks/bec35bf0-7cdc-458a-8900-5b77a6f9605e?country=JP&lang=zh-CN
+# https://api.m.nintendo.com/catalog/resources:detectUpdates
+
 host = 'https://api.m.nintendo.com'
 lang_list = ['zh-TW', 'fr-FR', 'de-DE', 'it-IT', 'es-ES', 'ko-KR']
 # lang_list = ['zh-CN', 'en-US', 'ja-JP']  # IETF
