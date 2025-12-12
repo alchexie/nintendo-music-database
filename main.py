@@ -20,7 +20,10 @@ import requests
 # https://api.m.nintendo.com/catalog/officialPlaylists/772a2b39-c35d-43fd-b3b1-bf267c01f342?country=JP&lang=ja-JP&membership=BASIC&packageType=hls_cbcs&sdkVersion=ios-1.4.0_f362763-1
 # https://api.m.nintendo.com/catalog/officialPlaylists/772a2b39-c35d-43fd-b3b1-bf267c01f342?country=JP&lang=ja-JP&membership=BASIC&packageType=hls_clear&sdkVersion=ios-1.4.0_f362763-1
 
-# https://api.m.nintendo.com/catalog/tracks/bec35bf0-7cdc-458a-8900-5b77a6f9605e?country=JP&lang=zh-CN
+# https://api.m.nintendo.com/catalog/tracks/3ab255bc-5d15-452c-9cfd-ae3037efaa34?country=JP&lang=zh-CN
+# https://api.m.nintendo.com/catalog/resources:search?country=HK&lang=zh-CN&limit=100&membership=BASIC&packageType=hls_cbcs&q=mario&sdkVersion=ios-1.8.3_19a0d8f9-1
+# https://api.m.nintendo.com/catalog/notices?country=HK&lang=zh-CN&limit=20&platformType=iOS
+# https://api.m.nintendo.com/catalog/contentNotices:filterByHome?country=HK&lang=zh-CN&limit=10
 # https://api.m.nintendo.com/catalog/resources:detectUpdates
 
 host = 'https://api.m.nintendo.com'
@@ -56,8 +59,10 @@ class Track(TypedDict):
 def get_api(url: str, params: dict, retry_count: int = 5) -> dict | list:
     for _ in range(retry_count):
         try:
-            response = requests.get(url, params=params, timeout=10)
-            response.headers['User-Agent'] = 'Nintendo Music/1.4.0 (com.nintendo.znba; build:25101508; iOS 26.1.0) Alamofire/5.10.2'
+            headers = {
+                'User-Agent': 'Nintendo Music/1.4.0 (com.nintendo.znba; build:25101508; iOS 26.1.0) Alamofire/5.10.2',
+            }
+            response = requests.get(url, params=params, headers=headers, timeout=10)
             if response.status_code == 200:
                 return response.json()
             else:
@@ -65,6 +70,14 @@ def get_api(url: str, params: dict, retry_count: int = 5) -> dict | list:
         except Exception as e:
             print(f'Error: {e}')
     raise RuntimeError('Failed to get a successful response from the API after multiple retries')
+
+
+def get_track_data(id: str, lang: str = 'zh-CN') -> dict:
+    url = f'{host}/catalog/tracks/{id}'
+    track_data = get_api(url, {'country': 'JP', 'lang': lang, 'membership': 'BASIC', 'packageType': 'hls_clear', 'sdkVersion': 'ios-1.4.0_f362763-1'})
+    if not isinstance(track_data, dict):
+        raise RuntimeError('Failed to get track data')
+    return track_data
 
 
 playlist_data_dict: dict[str, dict[str, dict]] = {}
