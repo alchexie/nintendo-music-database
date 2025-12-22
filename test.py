@@ -24,6 +24,12 @@ response = requests.get(url)
 print(response.json())
 
 updated_tracks = response.json().get("updatedTracks", [])
+time = datetime.now().strftime('%Y-%m-%d')
+path = f'detect_update/detect_update({time}).txt'
+if not os.path.exists('detect_update'):
+    os.makedirs('detect_update')
+if os.path.exists(path):
+    os.remove(path)
 
 for track in updated_tracks:
     track_id = track.get("id")
@@ -39,12 +45,6 @@ for track in updated_tracks:
         str = f"time: {updated_date}, Failed to get data for track ID: {track_id}"
 
     print(str)
-    # 输出到文件
-    time = datetime.now().strftime('%Y-%m-%d')
-    path = f'detect_update/detect_update({time}).txt'
-    if not os.path.exists('detect_update'):
-        os.makedirs('detect_update')
-    if os.path.exists(path):
-        os.remove(path)
+
     with open(path, 'a', encoding='utf-8') as f:
         f.write(str + '\n')
