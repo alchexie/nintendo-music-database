@@ -1,0 +1,436 @@
+time: 2025-12-01 09:13:41, track name: "HURRY UP!" Birabuto Kingdom BGM
+time: 2025-12-01 09:13:41, track name: Birabuto Kingdom BGM
+time: 2025-12-01 09:13:41, track name: Treasure Room BGM
+time: 2025-12-01 09:13:41, track name: "Hurry Up!" Treasure Room BGM
+time: 2025-12-01 09:13:41, track name: "Hurry Up!" Birabuto Kingdom BGM
+time: 2025-12-01 09:13:42, track name: Area Cleared
+time: 2025-12-01 09:13:42, track name: "HURRY UP!" Boss BGM
+time: 2025-12-01 09:13:42, track name: Bonus Game BGM
+time: 2025-12-01 09:13:42, track name: "Hurry Up!" Boss BGM
+time: 2025-12-01 09:13:42, track name: "HURRY UP!" Treasure Room BGM
+time: 2025-12-01 09:13:42, track name: Bonus Game Fanfare
+time: 2025-12-01 09:13:42, track name: Boss BGM
+time: 2025-12-01 09:13:42, track name: Muda Kingdom BGM
+time: 2025-12-01 09:13:42, track name: "Hurry Up!" Muda Kingdom BGM
+time: 2025-12-01 09:13:42, track name: Princess Daisy Rescued?
+time: 2025-12-01 09:13:42, track name: "HURRY UP!" Easton Kingdom BGM
+time: 2025-12-01 09:13:42, track name: Easton Kingdom BGM
+time: 2025-12-01 09:13:42, track name: "HURRY UP!" Muda Kingdom BGM
+time: 2025-12-01 09:13:42, track name: "Hurry Up!" Invincibility BGM
+time: 2025-12-01 09:13:42, track name: Chai Kingdom BGM
+time: 2025-12-01 09:13:42, track name: Invincibility BGM
+time: 2025-12-01 09:13:42, track name: Game Over
+time: 2025-12-01 09:13:42, track name: Player Down
+time: 2025-12-01 09:13:42, track name: "Hurry Up!" Easton Kingdom BGM
+time: 2025-12-01 09:13:42, track name: "HURRY UP!" Invincibility BGM
+time: 2025-12-01 09:13:42, track name: "Hurry Up!" Chai Kingdom BGM
+time: 2025-12-01 09:13:42, track name: "HURRY UP!" Tatanga the Mysterious Spaceman
+time: 2025-12-01 09:13:42, track name: "HURRY UP!" Chai Kingdom BGM
+time: 2025-12-01 09:13:42, track name: Princess Daisy Rescued
+time: 2025-12-01 09:13:42, track name: Shooting Area BGM
+time: 2025-12-01 09:13:42, track name: "Hurry Up!" Tatanga the Mysterious Spaceman
+time: 2025-12-01 09:13:42, track name: Ending
+time: 2025-12-01 09:13:42, track name: Tatanga the Mysterious Spaceman
+time: 2025-12-01 09:13:44, track name: Opening Scene 1: Start Game
+time: 2025-12-01 09:13:44, track name: Opening Scene 3: Baby Bowser & Kamek Appear
+time: 2025-12-01 09:13:44, track name: Title Screen
+time: 2025-12-01 09:13:44, track name: Opening Scene 2: Yoshis at Peace
+time: 2025-12-01 09:13:45, track name: Go for the Flower!
+time: 2025-12-01 09:13:45, track name: Course Clear: Results
+time: 2025-12-01 09:13:45, track name: World Map 1
+time: 2025-12-01 09:13:45, track name: Poochy Pups Appear
+time: 2025-12-01 09:13:45, track name: Big, Beefy Boss
+time: 2025-12-01 09:13:45, track name: Course Clear
+time: 2025-12-01 09:13:45, track name: Opening Scene 4: The Forest
+time: 2025-12-01 09:13:45, track name: Main Theme
+time: 2025-12-01 09:13:45, track name: Challenge Course Lobby
+time: 2025-12-01 09:13:45, track name: Beyond the Wild
+time: 2025-12-01 09:13:45, track name: Chatting before the Boss Battle
+time: 2025-12-01 09:13:45, track name: Bigger, Beefier Boss
+time: 2025-12-01 09:13:45, track name: Found a Dream Gem - Part 2
+time: 2025-12-01 09:13:45, track name: Chatting with Kamek after the Boss Battle
+time: 2025-12-01 09:13:45, track name: World Map 2
+time: 2025-12-01 09:13:45, track name: Boss Transformation: Tin-Can Condor
+time: 2025-12-01 09:13:45, track name: Found a Dream Gem - Part 1
+time: 2025-12-01 09:13:45, track name: Clickity-Clack Attack (First Half)
+time: 2025-12-01 09:13:45, track name: Found a Dream Gem - Part 3
+time: 2025-12-01 09:13:45, track name: Boss Defeated
+time: 2025-12-01 09:13:45, track name: Yards of Yarn
+time: 2025-12-01 09:13:45, track name: Boss Transformation: Spike the Piranha
+time: 2025-12-01 09:13:45, track name: What's It Gonna Be?!
+time: 2025-12-01 09:13:45, track name: Clickity-Clack Attack (Second Half)
+time: 2025-12-01 09:13:45, track name: Icy Oceans
+time: 2025-12-01 09:13:45, track name: World Map 4
+time: 2025-12-01 09:13:45, track name: Yoshi's Expedition
+time: 2025-12-01 09:13:45, track name: Clickity-Clack Attack (Before the Goal)
+time: 2025-12-01 09:13:45, track name: World Map 3
+time: 2025-12-01 09:13:45, track name: Floppy March
+time: 2025-12-01 09:13:45, track name: Dwelling Place of the Ninja
+time: 2025-12-01 09:13:46, track name: Chatting before the Boss Battle (Great King Bowser)
+time: 2025-12-01 09:13:46, track name: The Great King Bowser
+time: 2025-12-01 09:13:46, track name: Nighttime Crafts
+time: 2025-12-01 09:13:46, track name: Rocket Launch
+time: 2025-12-01 09:13:46, track name: World Map 5
+time: 2025-12-01 09:13:46, track name: Ducking through Danger
+time: 2025-12-01 09:13:46, track name: The Great King Bowser: Transformation
+time: 2025-12-01 09:13:46, track name: Boss Transformation: Burt the Ball & Gator Train
+time: 2025-12-01 09:13:46, track name: A Teeny, Tiny Universe
+time: 2025-12-01 09:13:46, track name: Final Fights and Last Hurrahs
+time: 2025-12-01 09:13:46, track name: The Yoshis' Wish
+time: 2025-12-01 09:13:46, track name: Staff Credits
+time: 2025-12-01 09:13:46, track name: Ending
+time: 2025-12-01 09:13:46, track name: Round and Round
+time: 2025-12-01 09:13:46, track name: Sundream Stone Restored
+time: 2025-12-01 09:13:46, track name: Mega Baby Bowser Appears
+time: 2025-12-01 09:13:46, track name: Chatting before the Boss Battle (Mega Baby Bowser)
+time: 2025-12-01 09:13:46, track name: Chatting after the Boss Battle (Mega Baby Bowser)
+time: 2025-12-01 09:13:47, track name: Disc Startup Screen (Wii Party)
+time: 2025-12-01 09:13:47, track name: Title Screen
+time: 2025-12-01 09:13:47, track name: Board Game Island (Intro)
+time: 2025-12-01 09:13:47, track name: Menu Screen
+time: 2025-12-01 09:13:47, track name: Globe Trot (Intro)
+time: 2025-12-01 09:13:47, track name: Party Games: Results Time
+time: 2025-12-01 09:13:47, track name: Board Game Island (Victory)
+time: 2025-12-01 09:13:47, track name: Board Game Island
+time: 2025-12-01 09:13:47, track name: Board Game Island (Final Challenge)
+time: 2025-12-01 09:13:47, track name: Suggestions
+time: 2025-12-01 09:13:47, track name: Game Over
+time: 2025-12-01 09:13:47, track name: Board Game Island (Volcano)
+time: 2025-12-01 09:13:47, track name: Globe Trot
+time: 2025-12-01 09:13:47, track name: Spin-Off (Intro)
+time: 2025-12-01 09:13:47, track name: Victory!
+time: 2025-12-01 09:13:47, track name: Swap Meet (Intro)
+time: 2025-12-01 09:13:47, track name: Spin-Off
+time: 2025-12-01 09:13:47, track name: Got Medals
+time: 2025-12-01 09:13:47, track name: Swap Meet (One to Go!)
+time: 2025-12-01 09:13:47, track name: Reached a Hot Spot
+time: 2025-12-01 09:13:47, track name: Globe Trot (Three Turns Left)
+time: 2025-12-01 09:13:47, track name: Swap Meet
+time: 2025-12-01 09:13:47, track name: Bingo (Intro)
+time: 2025-12-01 09:13:47, track name: Friend Connection
+time: 2025-12-01 09:13:47, track name: 10,000 Medals in the Bank
+time: 2025-12-01 09:13:47, track name: Bingo
+time: 2025-12-01 09:13:47, track name: Got Lots of Medals
+time: 2025-12-01 09:13:47, track name: Friend Connection (Answering)
+time: 2025-12-01 09:13:47, track name: Friend Connection (Results)
+time: 2025-12-01 09:13:48, track name: Friend Connection (Almost)
+time: 2025-12-01 09:13:48, track name: Friend Connection (Kinda)
+time: 2025-12-01 09:13:48, track name: Friend Connection (Intro)
+time: 2025-12-01 09:13:48, track name: Friend Connection (Best)
+time: 2025-12-01 09:13:48, track name: Balance Boat (Intermediate)
+time: 2025-12-01 09:13:48, track name: Match-Up (Three Pairs Left)
+time: 2025-12-01 09:13:48, track name: Balance Boat (Game Over)
+time: 2025-12-01 09:13:48, track name: Balance Boat (Beginner)
+time: 2025-12-01 09:13:48, track name: Match-Up
+time: 2025-12-01 09:13:48, track name: Balance Boat (Expert)
+time: 2025-12-01 09:13:48, track name: Balance Boat (Clear)
+time: 2025-12-01 09:13:48, track name: Match-Up (Intro)
+time: 2025-12-01 09:13:48, track name: Balance Boat (Intro)
+time: 2025-12-01 09:13:48, track name: Hide 'n' Hunt
+time: 2025-12-01 09:13:48, track name: Match-Up (Finished)
+time: 2025-12-01 09:13:48, track name: Animal Tracker
+time: 2025-12-01 09:13:48, track name: Quick Draw (Results)
+time: 2025-12-01 09:13:48, track name: Time Bomb
+time: 2025-12-01 09:13:48, track name: Buddy Quiz
+time: 2025-12-01 09:13:48, track name: Match-Up (Victory)
+time: 2025-12-01 09:13:48, track name: Big Explosion!
+time: 2025-12-01 09:13:48, track name: Minigames: Explanation
+time: 2025-12-01 09:13:48, track name: Bomb Countdown
+time: 2025-12-01 09:13:48, track name: Ram Jam
+time: 2025-12-01 09:13:48, track name: Saucer Snap
+time: 2025-12-01 09:13:48, track name: Derby Dash
+time: 2025-12-01 09:13:48, track name: Flag Footrace
+time: 2025-12-01 09:13:48, track name: Moon Landing
+time: 2025-12-01 09:13:48, track name: Smile Snap
+time: 2025-12-01 09:13:48, track name: Chop Chops
+time: 2025-12-01 09:13:48, track name: Feathered Frenzy
+time: 2025-12-01 09:13:48, track name: Jumbo Jump
+time: 2025-12-01 09:13:48, track name: Moon Landing (Finished)
+time: 2025-12-01 09:13:49, track name: Cry Babies
+time: 2025-12-01 09:13:49, track name: Barrel Daredevil
+time: 2025-12-01 09:13:49, track name: Space Brawl
+time: 2025-12-01 09:13:49, track name: Stop Watchers
+time: 2025-12-01 09:13:49, track name: Lucky Launch
+time: 2025-12-01 09:13:49, track name: Follow Your Face
+time: 2025-12-01 09:13:49, track name: Spotlight Fight
+time: 2025-12-01 09:13:49, track name: Rope Sling
+time: 2025-12-01 09:13:49, track name: Tropical Punch
+time: 2025-12-01 09:13:49, track name: Pearl Plunder
+time: 2025-12-01 09:13:49, track name: Walk-Off
+time: 2025-12-01 09:13:49, track name: Walk-Off (Finished)
+time: 2025-12-01 09:13:49, track name: Channel Changers (Start)
+time: 2025-12-01 09:13:49, track name: Chin-Up Champ
+time: 2025-12-01 09:13:49, track name: Flying Fruit
+time: 2025-12-01 09:13:49, track name: Commuter Count
+time: 2025-12-01 09:13:49, track name: Jangle Wranglers
+time: 2025-12-01 09:13:49, track name: Hide-and-Peek
+time: 2025-12-01 09:13:49, track name: Poserobics
+time: 2025-12-01 09:13:49, track name: Flying Fruit (Finished)
+time: 2025-12-01 09:13:49, track name: Pump Cart Panic
+time: 2025-12-01 09:13:49, track name: Robot Factory
+time: 2025-12-01 09:13:49, track name: Fruit Focus
+time: 2025-12-01 09:13:49, track name: Pop Coaster
+time: 2025-12-01 09:13:49, track name: Tippy Traverse
+time: 2025-12-01 09:13:49, track name: Flashlight Frights
+time: 2025-12-01 09:13:49, track name: Spring Time
+time: 2025-12-01 09:13:49, track name: Fishin' Buddies
+time: 2025-12-01 09:13:49, track name: Channel Changers
+time: 2025-12-01 09:13:49, track name: Paddle Pals
+time: 2025-12-01 09:13:50, track name: Solo
+time: 2025-12-01 09:13:50, track name: Garden Gridlock
+time: 2025-12-01 09:13:50, track name: Teamwork Temple
+time: 2025-12-01 09:13:50, track name: About Face
+time: 2025-12-01 09:13:50, track name: Two-Person Pair (Failure)
+time: 2025-12-01 09:13:50, track name: Two-Person Pair (Success)
+time: 2025-12-01 09:13:50, track name: Jump Rope Jam
+time: 2025-12-01 09:13:50, track name: Garden Gridlock (Stage Select)
+time: 2025-12-01 09:13:50, track name: Bobsled Highway
+time: 2025-12-01 09:13:50, track name: Battle
+time: 2025-12-01 09:13:50, track name: Rankings
+time: 2025-12-01 09:13:50, track name: Minigame: Results Announcement
+time: 2025-12-01 09:13:50, track name: Spot the Sneak
+time: 2025-12-03 15:54:16, track name: Volt Forge
+time: 2025-12-03 15:54:16, track name: Ice Belt Power On
+time: 2025-12-03 15:54:16, track name: The Sacred Tree
+time: 2025-12-03 15:54:16, track name: Fury Green
+time: 2025-12-03 15:54:16, track name: Carvex
+time: 2025-12-03 15:54:16, track name: Vi-O-La
+time: 2025-12-03 15:54:16, track name: Metroid Prime 4 Main Theme
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 9026f92d-ec0c-4be9-88ef-9db8dafd2114
+time: 2025-12-24 09:08:19, Failed to get data for track ID: a71eb36f-de82-4354-b820-d4a639216997
+time: 2025-12-24 09:08:19, Failed to get data for track ID: ab02a702-2453-447b-b7e5-392ee203dcc6
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 7a8b382f-ba07-49e3-b35e-53dc1240202d
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 1409f341-5236-4008-884c-42579acb11d6
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 20d01453-a43e-4767-846e-2fb34b1ddd06
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 8487484a-ffc0-4806-b83b-d20629726eb9
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 4bb5e75a-4dcb-40e9-bf7a-13001a768bab
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 10dd7980-2df0-41de-98db-04b2294f4061
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 0117c515-5074-407e-83c0-6dbe316a326f
+time: 2025-12-24 09:08:19, Failed to get data for track ID: fdd9d253-e940-482c-a2fe-b44f4222c893
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 140fe2a1-b697-4a80-879c-a6f794647f44
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 98d7099d-f580-464f-934b-59097713a660
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 47c590c8-9e59-4bc3-a3b6-7c43229225ff
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 21e5ca1d-40f3-4a95-aecf-e15f83fa941e
+time: 2025-12-24 09:08:19, Failed to get data for track ID: aa5094d7-cdad-4b6a-92c2-3ebfeac80759
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 702074c9-f31c-4658-a0ad-1b5a6396a5b5
+time: 2025-12-24 09:08:19, Failed to get data for track ID: dbd1fa2a-8b15-4af1-aadc-246cf8b8b02e
+time: 2025-12-24 09:08:20, Failed to get data for track ID: abba1938-7f55-4fff-a887-7ed06b60274f
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 5fb02110-c16b-49c5-88d9-aee7bea558ff
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 726adea1-0383-4e48-874a-2385aeba24ab
+time: 2025-12-24 09:08:20, Failed to get data for track ID: a7ab30ed-0b22-4edd-9b57-0ec98cd59ae6
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 4fc401ce-ab65-4eff-8e25-c3cd0ffc932e
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 7ac9e8d6-44e0-44d2-87d0-11e8caad43aa
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 7720d0ba-7a4a-4ac0-952c-7e1b3babea9b
+time: 2025-12-24 09:08:20, Failed to get data for track ID: d8a4f853-7b8c-4a8f-bd0e-03350d41a23f
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 8c9381f4-81fb-4f00-bfbc-0261b51c50a8
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 53c51478-28bf-4630-ab31-aadede908a36
+time: 2025-12-24 09:08:20, Failed to get data for track ID: a14c4368-ca8a-4291-913c-2ddd0befb8bd
+time: 2025-12-24 09:08:20, Failed to get data for track ID: d490e6e4-e05e-4507-a572-fc786dcab807
+time: 2025-12-24 09:08:20, Failed to get data for track ID: eca55852-aa12-4781-a38e-808acc4669ef
+time: 2025-12-24 09:08:20, Failed to get data for track ID: ea7d7e72-0620-4004-ae4a-c240e2946d0c
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 803280e8-0eaa-42c1-8943-863c5e96148c
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 6e7e2b53-7827-4282-892e-69eba32c6ff5
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 8f3c0416-cb5f-4ac9-97e3-91cd22081944
+time: 2025-12-24 09:08:20, Failed to get data for track ID: ec2aa439-822b-436a-b6b7-86bbb8e17ddd
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 03e0408c-d6bd-4e5f-9c99-e1ce861faf38
+time: 2025-12-24 09:08:20, Failed to get data for track ID: a7bc1587-1396-446b-8225-ddcd63da9ce3
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 011a6241-fcba-42e1-850f-71caef88d4b9
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 212270e6-12c2-4dfb-b549-cccc96866fa3
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 91e3779a-5b52-4b6a-817f-1fb52a1dd388
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 8a3e0298-8d09-4025-9056-d7337b90433f
+time: 2025-12-24 09:08:21, Failed to get data for track ID: e7da10a0-add9-484e-aa10-ae9e3950a75f
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 96271fef-96b6-4d91-ae23-7fc19b8c0182
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 7f5db149-e5d9-4617-a8cb-0c0107401ed2
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 55d92a23-25b4-4c76-ae3b-ea5c5230c8e8
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 6b9a1fd7-5fc9-4f8a-b4bc-e77ed7522a01
+time: 2025-12-24 09:08:21, Failed to get data for track ID: be596e0b-3ef3-4287-bb91-21697f5fd950
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 45abdaec-bcef-4ced-9ebb-c41544dbaac8
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 3c25af73-f148-492f-bc95-17b5316667aa
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 5be928b6-190e-4a22-95c8-f2617d6c12aa
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 56bee91e-fe22-4fcb-828c-d162ff8af459
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 875f2edb-0763-4efc-8bf4-07c2ad760d77
+time: 2025-12-24 09:08:22, Failed to get data for track ID: a04ab42a-aa2f-4a89-a405-40cc9c0973c1
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 03c0cd26-dbf4-4403-ac2f-9870904b677c
+time: 2025-12-24 09:08:22, Failed to get data for track ID: e0b6ab49-c64e-4705-8d2d-2c290fa2073c
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 76db3fc7-092f-40f1-af3c-4f99b93ae6a8
+time: 2025-12-24 09:08:22, Failed to get data for track ID: c92dde93-13b9-4749-9050-ce9432e205a6
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 36789c8d-fe8e-44e7-a1cf-8cdfeabbea49
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 9a4c6755-73f7-4395-b387-da799eca50d9
+time: 2025-12-24 09:08:22, Failed to get data for track ID: b7d2196a-9f21-4c98-86d5-c3139cc7d4ee
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 27306b6c-eecb-46d6-8f25-c4460bc8eddb
+time: 2025-12-24 09:08:22, Failed to get data for track ID: bbf77236-86ae-407b-ab6e-b24907c3bdfb
+time: 2025-12-24 09:08:22, Failed to get data for track ID: dcd7f044-99b7-41ae-a660-a96e4c88481a
+time: 2025-12-24 09:08:22, Failed to get data for track ID: a1431b7e-3e65-4351-a3f0-a855f997960a
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 3e5d0869-248e-4157-9ae8-7d11c97b0ee7
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 9fcb638b-4b2b-423f-a0da-668c5761ab03
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 11305eec-4c43-4004-9208-42829831d965
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 8fd76288-7712-4b7a-b53f-d12d745afb70
+time: 2025-12-24 09:08:22, Failed to get data for track ID: d974da50-8619-40de-8ba4-ddf9043c1e08
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 26398da5-3f11-4f88-b4a4-38d27382185d
+time: 2025-12-24 09:08:22, Failed to get data for track ID: cc6e5d02-0a2f-4741-b7d4-5043b1a83e70
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 6176ddf3-5729-4b8d-8a9b-8f1c12eb1042
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 3b5bba6f-31f5-4baf-b510-e9d00bc2275e
+time: 2025-12-24 09:08:22, Failed to get data for track ID: ff16631e-6350-4211-98b4-f24a35063a26
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 9012ac4c-8182-4b33-99eb-103d202397d7
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 6e640cd5-4023-48f6-ae32-341f38baa4bb
+time: 2025-12-24 09:08:22, Failed to get data for track ID: c68b3de9-9786-437a-b9b7-20a534ef1a84
+time: 2025-12-24 09:08:22, Failed to get data for track ID: a1f605ca-eb86-4281-8ba1-6c7923e16335
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 97150f6b-c6a1-46dd-935c-12aa30937181
+time: 2025-12-24 09:08:26, Failed to get data for track ID: 677aa9f7-9896-4aad-9926-c395b95418d9
+time: 2025-12-24 09:08:26, Failed to get data for track ID: 5ee04593-eb42-4054-900c-5f2e9d00d0f2
+time: 2025-12-24 09:08:26, Failed to get data for track ID: f3beaaa7-a740-470a-b60d-3ebe69101a24
+time: 2025-12-24 09:08:26, Failed to get data for track ID: f4112619-95d2-4b64-9418-f7b3967ed4ad
+time: 2025-12-24 09:08:26, Failed to get data for track ID: ce0ca09e-2996-411f-b74f-7d618b3f8408
+time: 2025-12-24 09:08:26, Failed to get data for track ID: 84d729bb-1a52-44f0-93c2-4a327fad4065
+time: 2025-12-24 09:08:26, Failed to get data for track ID: 5ca7b85e-40af-4add-86eb-bb37191bb312
+time: 2025-12-24 09:08:26, Failed to get data for track ID: a995de5f-14bc-4303-92e7-909cc9f4ba3d
+time: 2025-12-24 09:08:26, Failed to get data for track ID: 1035186c-7a07-4c62-b2d6-b4f3468fbb04
+time: 2025-12-24 09:08:26, Failed to get data for track ID: f8e8e1ea-608c-4291-a9cc-39e1bfdf7495
+time: 2025-12-24 09:08:26, Failed to get data for track ID: 7c2f04b7-ac64-48ff-b551-bed70f0dffc2
+time: 2025-12-24 09:08:26, Failed to get data for track ID: 54a46e11-2a14-4037-8a33-6fbe85b9acc6
+time: 2025-12-24 09:08:26, Failed to get data for track ID: 1c6709d7-b020-44dd-b420-b8c123ef19f9
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 1946d0df-faf5-4abd-aa47-246d4f9f174f
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 44186cf9-bf5a-43ad-88af-f677f6e43f06
+time: 2025-12-24 09:08:27, Failed to get data for track ID: b676fbff-d729-45d7-96b4-d2eb3ce20146
+time: 2025-12-24 09:08:27, Failed to get data for track ID: ca4cc6c6-555d-4d30-bdda-750cbd2847fd
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 730784e4-14d6-401d-8022-22005f39961e
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 48fae6f9-048f-4691-ac6d-ca46d3fb4a4c
+time: 2025-12-24 09:08:27, Failed to get data for track ID: adcf2393-0457-4a63-a943-643c2ecd279b
+time: 2025-12-24 09:08:27, Failed to get data for track ID: f26356c9-f6b6-4a4a-b716-4fefe1fb7f9a
+time: 2025-12-24 09:08:27, Failed to get data for track ID: d7c58896-0a34-4ac3-abfe-deb9bd6b961f
+time: 2025-12-24 09:08:27, Failed to get data for track ID: e949a480-8d3c-48c0-aa94-418430d986c0
+time: 2025-12-24 09:08:27, Failed to get data for track ID: e766d7d1-eac2-4d17-9ef6-14b3f4abbe3d
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 380f9edf-b75f-479b-a0f4-678d80ca1781
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 3683ebcb-df60-44a7-b4bd-cee82b7dea7e
+time: 2025-12-24 09:08:27, Failed to get data for track ID: b199cd2b-05cc-4015-9ff5-067fb029f3d7
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 42be9e8a-f21a-4c63-9997-f44f49866075
+time: 2025-12-24 09:08:27, Failed to get data for track ID: f5d919fc-b724-473b-bf9e-30f392316045
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 9e976e65-a086-4d4c-85b2-96ee8e746f92
+time: 2025-12-24 09:08:27, Failed to get data for track ID: e6b78d2f-d885-4b89-99f4-8d17cddf3b6d
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 98155792-98df-4d8b-883a-8b0770fd718c
+time: 2025-12-24 09:08:27, Failed to get data for track ID: caf081b4-05e5-4399-8067-2da812e1695d
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 9723cb41-ae82-4a1d-bf86-a2c6f6386323
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 9d1bc074-8fb9-4688-874b-3cd750bb700a
+time: 2025-12-24 09:08:27, Failed to get data for track ID: e12ad333-f3c2-45fd-bae6-15761d6dfc53
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 07542b12-f1c8-46d8-83e8-91e959725a49
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 453fe059-b277-41a4-aafe-a7e39235a257
+time: 2025-12-24 09:08:27, Failed to get data for track ID: e37220e2-db64-464e-bbd2-a8d21ab2903c
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 3dd604df-9756-4c5f-ad1a-2ac61f8f2dc0
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 48f85255-644d-44dc-acb5-8f2e416642af
+time: 2025-12-24 09:08:27, Failed to get data for track ID: 99156de4-e819-4687-ac6a-1182f5c9e4b8
+time: 2025-12-24 09:08:27, Failed to get data for track ID: b60ca97a-2ee9-4eb5-886f-a78574f7e93a
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 51057f08-f89e-49dc-9ec2-4ee7e8ccbaed
+time: 2025-12-24 09:08:28, Failed to get data for track ID: d80ff097-7038-416b-b4c5-cbf6980a0069
+time: 2025-12-24 09:08:28, Failed to get data for track ID: f666235d-1bfd-46ba-8fea-9c820ba26435
+time: 2025-12-24 09:08:28, Failed to get data for track ID: e4f28352-40ea-46fe-9c34-158f246399df
+time: 2025-12-24 09:08:28, Failed to get data for track ID: ed5503da-5c3a-4871-951d-851282cbdce7
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 284027a8-2a41-43d7-87eb-f6172c00d071
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 51951b2c-1aec-4a1b-b132-f3fa8d7b7334
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 56e448d4-eea0-4ed4-a853-a89e269ce4d4
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 460dfdbe-6297-4174-9d17-b8100f76db9a
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 27ff145c-93bd-49e5-b4bb-7857e229aaed
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 473f6169-678b-402d-8fca-34efabceb8fb
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 759133af-b1ab-4ca2-bb71-a8aa6a7413dc
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 9eebd9bc-301f-4208-b152-2e6c7b6cc171
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 7448ed51-0af9-49e9-8b04-8392c43fc845
+time: 2025-12-24 09:08:28, Failed to get data for track ID: bc0e3d40-d897-4794-aa0a-c132ca3c414b
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 9bd838f0-fb52-40b0-886e-64c959def044
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 251dadec-d65f-48db-a16d-b585cba05b1c
+time: 2025-12-24 09:08:28, Failed to get data for track ID: f5a480c9-0011-41d8-8d66-06695bd4aaf2
+time: 2025-12-24 09:08:28, Failed to get data for track ID: c67a2427-dbd6-40f2-a22a-4d84998c6567
+time: 2025-12-24 09:08:28, Failed to get data for track ID: 0387e6bf-9ce2-46f7-bdec-d93062354f0a
+time: 2025-12-24 09:08:28, Failed to get data for track ID: d4a501f7-3183-4d9d-824d-404cfc650f66
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 0500dddf-547b-460f-bf62-cc28b1c5acae
+time: 2025-12-24 09:08:29, Failed to get data for track ID: c7284265-d2db-4a28-8530-e47e9fa5c247
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 2f5dadf6-a610-4faf-be09-6962855ccfe4
+time: 2025-12-24 09:08:29, Failed to get data for track ID: b893df92-d4f3-4471-adcb-117cdd7e8fd7
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 3618b6fc-8e25-460d-ae42-b53aeb5b2ccc
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 953d3712-7f51-4869-abc1-01be4dcdad35
+time: 2025-12-24 09:08:29, Failed to get data for track ID: ac1e40d9-8520-4caf-b15c-b5ff4503522c
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 4d50af63-b636-4f90-b70e-be829c468665
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 13ad064a-72ba-4ce6-90ac-7264695faa2c
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 0e65efc3-cd5a-49ca-83ae-e50b7e12a600
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 6edfcebb-115d-47e7-9fcc-cf8a36873f7e
+time: 2025-12-24 09:08:29, Failed to get data for track ID: c8c81ee8-29bb-46ba-8bb9-365061267273
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 6572b7e5-d8ea-4c91-ba44-809595819cec
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 6d81692f-46ee-4ae4-a166-9f83c6a96db8
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 6a97a066-c8c0-4b87-852e-c8ca7669c42c
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 7039aa27-7533-4728-9b9b-79470cde0fcf
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 024032fa-45bd-4038-9be4-6eeffddd950d
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 4fdff432-8b51-4456-91f2-6fcb46ed4a35
+time: 2025-12-24 09:08:29, Failed to get data for track ID: dd5ceae3-bb63-4575-a789-f5d4b33045f5
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 4be69d12-1fd0-488a-8ff5-b4d383b250c2
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 78bc0d86-3dc7-48c4-bcd6-231df163dbf1
+time: 2025-12-24 09:08:29, Failed to get data for track ID: c2f090bd-3ec2-4b73-9c6d-8157112ff935
+time: 2025-12-24 09:08:29, Failed to get data for track ID: 4288a27b-8586-4403-81f4-78e25f14111b
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 61d031ae-b7a6-4d9a-8c9e-b3b91f1d7b41
+time: 2025-12-24 09:08:30, Failed to get data for track ID: af11573d-8f36-42f6-89fd-92df6ba7f076
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 0f78e8b9-52f9-4448-b5e7-21228c40b784
+time: 2025-12-24 09:08:30, Failed to get data for track ID: cb379ef3-851b-4600-a657-d6a86a388900
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 85ccc722-4e7b-4433-b1e0-f39d144a6d40
+time: 2025-12-24 09:08:30, Failed to get data for track ID: a2b81358-95f1-44be-a062-f2bda8505e38
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 7349a42d-fccb-4af9-a921-129281b72aaa
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 3598ccd3-e8c6-4d27-9ffa-6f70509ff439
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 6f54a1dd-a768-4490-8e21-181b417ac762
+time: 2025-12-24 09:08:30, Failed to get data for track ID: b727c99a-2f0e-4489-af3c-5a9642f47c24
+time: 2025-12-24 09:08:30, Failed to get data for track ID: e822dcd6-f20a-429e-8f97-8fc147495b51
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 6c3b0277-4e73-4d7a-b2f1-ee9c6dd0fc30
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 79deb1b7-47b4-442f-89df-9fda5b70bcdc
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 58ad80cf-5eeb-4bfc-b333-1a865776a0d7
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 0da8e59a-b53a-4102-a589-540298d133d5
+time: 2025-12-24 09:08:30, Failed to get data for track ID: c2c40f74-0fc5-446f-ba22-816bbe7fad93
+time: 2025-12-24 09:08:30, Failed to get data for track ID: ec71b4aa-153f-4c1b-9a1a-bb1f5bce8be0
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 8b22dba8-778a-466f-8b3d-e72df7d49fd7
+time: 2025-12-24 09:08:30, Failed to get data for track ID: ffe32bcb-3617-4598-b94e-dc86669e5a76
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 895ea9f8-b2db-4f12-823b-3b2edee3e722
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 06f52e3d-517b-4dd1-85c7-17c7131bf866
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 9d9f43e4-0959-4db7-9261-bc3625bb79ce
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 36cd39da-cd76-4d94-b896-93dc841b1608
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 360bea61-fad4-4406-894a-ff6d5aa6ddd1
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 2a0d1078-5aa2-4f88-a704-9c039ca55b04
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 0f69a599-b83b-48e3-94a4-577eade8e4e3
+time: 2025-12-24 09:08:30, Failed to get data for track ID: e1dd7d2e-709a-4277-9440-5da4ae0e8d9c
+time: 2025-12-24 09:08:30, Failed to get data for track ID: b1a888f8-710a-48a8-b225-3e06be8bb643
+time: 2025-12-24 09:08:30, Failed to get data for track ID: 9ec6f30c-3808-40be-a1e9-219924aa130c
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 590041a8-a525-4a97-a5c4-ab9bb5e395e7
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 1b7c9f6a-6b88-40f6-ada9-52f22871429a
+time: 2025-12-24 09:08:31, Failed to get data for track ID: e85e3642-735a-413a-ae8a-03e0099381ae
+time: 2025-12-24 09:08:31, Failed to get data for track ID: b4abf23f-1329-4c2c-86fa-d03d5c52495f
+time: 2025-12-24 09:08:31, Failed to get data for track ID: af273d8c-9799-40ca-b71b-e5846a2db7b9
+time: 2025-12-24 09:08:31, Failed to get data for track ID: e4aa1e46-b5d9-42d3-b54b-3f8589d5f439
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 8de04cb1-1ffe-49c6-ad7d-89679ae91b25
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 83e17cf0-8fa9-4eab-9ac1-3da42acf2dc0
+time: 2025-12-24 09:08:31, Failed to get data for track ID: eadf1217-3b8f-4309-8b0f-64584bb9303b
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 2c9eae48-eef6-482d-9f24-5b858a474e8c
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 25564018-f358-46f5-be3f-c9cde8b5f14c
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 004cd38c-2fdc-4d50-8cd9-39b06a9001f4
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 689b8347-1bf9-4aa5-86c0-349f0b01eaea
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 58968d5d-273b-4405-81ba-d9e80f4b8291
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 0cfe6251-2750-4e83-bef7-416a2c2e7e66
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 9f317a24-543a-40a5-a1e0-f6282178310c
+time: 2025-12-24 09:08:31, Failed to get data for track ID: d99ba377-248b-43b7-9087-031d0572ee63
+time: 2025-12-24 09:08:31, Failed to get data for track ID: f2c2e1c1-d2b1-4313-9d96-1db930a731e7
+time: 2025-12-24 09:08:31, Failed to get data for track ID: ee3734fd-c3cd-4451-88bc-4a9a8e240ce4
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 09983906-7d32-490d-a6de-82ab310cb853
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 6561067c-36bd-4a7a-8579-5120e2b4ba0e
+time: 2025-12-24 09:08:31, Failed to get data for track ID: 70cd0c51-5939-4dcf-a544-538d722a29fd
+time: 2025-12-24 09:08:31, Failed to get data for track ID: a7710dd4-16a3-4b3b-acbf-aaaad7eb1f83
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 1e8cfbd7-8562-478a-9d5d-60f78610c5eb
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 802e49a5-d916-4e03-bec8-fdcb5e070185
+time: 2025-12-24 09:08:32, Failed to get data for track ID: d8880b56-7b24-49f7-93a8-67593dd73059
+time: 2025-12-24 09:08:32, Failed to get data for track ID: b8edc8c9-d02f-44ed-8170-8b0f8473439b
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 85213e37-3d8b-4da6-8fa4-5a111362d545
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 4ae4ece9-0d9c-45d3-918d-c81007b55037
+time: 2025-12-24 09:08:32, Failed to get data for track ID: e286bb24-26e4-49c0-a9fa-b5c349b77caf
+time: 2025-12-24 09:08:32, Failed to get data for track ID: a250d62a-d6fd-46b9-9e33-7a7b382233d4
+time: 2025-12-24 09:08:32, Failed to get data for track ID: fe65e50b-a719-4df3-8ea2-e399a21809cc
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 04c03b90-38d5-4563-822c-8975777e0b3a
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 708bfcd9-c86a-4ba7-974e-d724e351f4d9
+time: 2025-12-24 09:08:32, Failed to get data for track ID: ba3af539-8770-49e4-b3ad-e550ba38362a
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 71635b75-33d5-40e3-90a3-96c4c6a27a86
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 16014f51-d235-4ef6-a0cc-dd4df655047f
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 35fefcce-99a5-4c55-bd2b-6d21b5bcb999
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 1ade944b-53b1-448b-aadc-7d20eb5a5e0f
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 5da9200e-a6bd-4d44-8e81-fe32d357ed44
+time: 2025-12-24 09:08:32, Failed to get data for track ID: 6d7be642-48c3-4fa2-9c00-8e109aaffab5
+time: 2025-12-24 09:08:32, Failed to get data for track ID: b8bfbe5a-2176-4da5-a245-ee5203e68630
