@@ -1,0 +1,238 @@
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 9026f92d-ec0c-4be9-88ef-9db8dafd2114
+time: 2025-12-24 09:08:19, Failed to get data for track ID: ab02a702-2453-447b-b7e5-392ee203dcc6
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 8487484a-ffc0-4806-b83b-d20629726eb9
+time: 2025-12-24 09:08:19, Failed to get data for track ID: fdd9d253-e940-482c-a2fe-b44f4222c893
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 140fe2a1-b697-4a80-879c-a6f794647f44
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 98d7099d-f580-464f-934b-59097713a660
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 47c590c8-9e59-4bc3-a3b6-7c43229225ff
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 21e5ca1d-40f3-4a95-aecf-e15f83fa941e
+time: 2025-12-24 09:08:19, Failed to get data for track ID: aa5094d7-cdad-4b6a-92c2-3ebfeac80759
+time: 2025-12-24 09:08:19, Failed to get data for track ID: 702074c9-f31c-4658-a0ad-1b5a6396a5b5
+time: 2025-12-24 09:08:19, Failed to get data for track ID: dbd1fa2a-8b15-4af1-aadc-246cf8b8b02e
+time: 2025-12-24 09:08:20, Failed to get data for track ID: abba1938-7f55-4fff-a887-7ed06b60274f
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 5fb02110-c16b-49c5-88d9-aee7bea558ff
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 726adea1-0383-4e48-874a-2385aeba24ab
+time: 2025-12-24 09:08:20, Failed to get data for track ID: a7ab30ed-0b22-4edd-9b57-0ec98cd59ae6
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 4fc401ce-ab65-4eff-8e25-c3cd0ffc932e
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 7ac9e8d6-44e0-44d2-87d0-11e8caad43aa
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 7720d0ba-7a4a-4ac0-952c-7e1b3babea9b
+time: 2025-12-24 09:08:20, Failed to get data for track ID: d8a4f853-7b8c-4a8f-bd0e-03350d41a23f
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 8c9381f4-81fb-4f00-bfbc-0261b51c50a8
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 53c51478-28bf-4630-ab31-aadede908a36
+time: 2025-12-24 09:08:20, Failed to get data for track ID: a14c4368-ca8a-4291-913c-2ddd0befb8bd
+time: 2025-12-24 09:08:20, Failed to get data for track ID: d490e6e4-e05e-4507-a572-fc786dcab807
+time: 2025-12-24 09:08:20, Failed to get data for track ID: eca55852-aa12-4781-a38e-808acc4669ef
+time: 2025-12-24 09:08:20, Failed to get data for track ID: ea7d7e72-0620-4004-ae4a-c240e2946d0c
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 803280e8-0eaa-42c1-8943-863c5e96148c
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 6e7e2b53-7827-4282-892e-69eba32c6ff5
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 8f3c0416-cb5f-4ac9-97e3-91cd22081944
+time: 2025-12-24 09:08:20, Failed to get data for track ID: ec2aa439-822b-436a-b6b7-86bbb8e17ddd
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 03e0408c-d6bd-4e5f-9c99-e1ce861faf38
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 011a6241-fcba-42e1-850f-71caef88d4b9
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 212270e6-12c2-4dfb-b549-cccc96866fa3
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 91e3779a-5b52-4b6a-817f-1fb52a1dd388
+time: 2025-12-24 09:08:20, Failed to get data for track ID: 8a3e0298-8d09-4025-9056-d7337b90433f
+time: 2025-12-24 09:08:21, Failed to get data for track ID: e7da10a0-add9-484e-aa10-ae9e3950a75f
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 96271fef-96b6-4d91-ae23-7fc19b8c0182
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 7f5db149-e5d9-4617-a8cb-0c0107401ed2
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 55d92a23-25b4-4c76-ae3b-ea5c5230c8e8
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 6b9a1fd7-5fc9-4f8a-b4bc-e77ed7522a01
+time: 2025-12-24 09:08:21, Failed to get data for track ID: be596e0b-3ef3-4287-bb91-21697f5fd950
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 45abdaec-bcef-4ced-9ebb-c41544dbaac8
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 3c25af73-f148-492f-bc95-17b5316667aa
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 5be928b6-190e-4a22-95c8-f2617d6c12aa
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 56bee91e-fe22-4fcb-828c-d162ff8af459
+time: 2025-12-24 09:08:21, Failed to get data for track ID: 875f2edb-0763-4efc-8bf4-07c2ad760d77
+time: 2025-12-24 09:08:22, Failed to get data for track ID: a04ab42a-aa2f-4a89-a405-40cc9c0973c1
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 03c0cd26-dbf4-4403-ac2f-9870904b677c
+time: 2025-12-24 09:08:22, Failed to get data for track ID: e0b6ab49-c64e-4705-8d2d-2c290fa2073c
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 76db3fc7-092f-40f1-af3c-4f99b93ae6a8
+time: 2025-12-24 09:08:22, Failed to get data for track ID: c92dde93-13b9-4749-9050-ce9432e205a6
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 36789c8d-fe8e-44e7-a1cf-8cdfeabbea49
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 9a4c6755-73f7-4395-b387-da799eca50d9
+time: 2025-12-24 09:08:22, Failed to get data for track ID: b7d2196a-9f21-4c98-86d5-c3139cc7d4ee
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 27306b6c-eecb-46d6-8f25-c4460bc8eddb
+time: 2025-12-24 09:08:22, Failed to get data for track ID: bbf77236-86ae-407b-ab6e-b24907c3bdfb
+time: 2025-12-24 09:08:22, Failed to get data for track ID: dcd7f044-99b7-41ae-a660-a96e4c88481a
+time: 2025-12-24 09:08:22, Failed to get data for track ID: a1431b7e-3e65-4351-a3f0-a855f997960a
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 3e5d0869-248e-4157-9ae8-7d11c97b0ee7
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 9fcb638b-4b2b-423f-a0da-668c5761ab03
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 11305eec-4c43-4004-9208-42829831d965
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 8fd76288-7712-4b7a-b53f-d12d745afb70
+time: 2025-12-24 09:08:22, Failed to get data for track ID: d974da50-8619-40de-8ba4-ddf9043c1e08
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 26398da5-3f11-4f88-b4a4-38d27382185d
+time: 2025-12-24 09:08:22, Failed to get data for track ID: cc6e5d02-0a2f-4741-b7d4-5043b1a83e70
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 6176ddf3-5729-4b8d-8a9b-8f1c12eb1042
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 3b5bba6f-31f5-4baf-b510-e9d00bc2275e
+time: 2025-12-24 09:08:22, Failed to get data for track ID: ff16631e-6350-4211-98b4-f24a35063a26
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 9012ac4c-8182-4b33-99eb-103d202397d7
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 6e640cd5-4023-48f6-ae32-341f38baa4bb
+time: 2025-12-24 09:08:22, Failed to get data for track ID: c68b3de9-9786-437a-b9b7-20a534ef1a84
+time: 2025-12-24 09:08:22, Failed to get data for track ID: a1f605ca-eb86-4281-8ba1-6c7923e16335
+time: 2025-12-24 09:08:22, Failed to get data for track ID: 97150f6b-c6a1-46dd-935c-12aa30937181
+time: 2025-12-24 09:08:26, track name: The First Fight
+time: 2025-12-24 09:08:26, track name: Like Father, Like Son
+time: 2025-12-24 09:08:26, track name: Ike's Resolution
+time: 2025-12-24 09:08:26, track name: Greil Mercenaries
+time: 2025-12-24 09:08:26, track name: Crimea Attacks
+time: 2025-12-24 09:08:26, track name: Clash
+time: 2025-12-24 09:08:26, track name: A Battle and a Beginning
+time: 2025-12-24 09:08:26, track name: Defensive Battle
+time: 2025-12-24 09:08:26, track name: Side Battle
+time: 2025-12-24 09:08:26, track name: Congregation of Ambition
+time: 2025-12-24 09:08:26, track name: Decisive Attack
+time: 2025-12-24 09:08:26, track name: Change of Scenery
+time: 2025-12-24 09:08:26, track name: Victory Is Near
+time: 2025-12-24 09:08:27, track name: Holding Your Own
+time: 2025-12-24 09:08:27, track name: Against the Black Knight
+time: 2025-12-24 09:08:27, track name: The Enemy Approaches
+time: 2025-12-24 09:08:27, track name: The Enemy Draws Near
+time: 2025-12-24 09:08:27, track name: Victory United
+time: 2025-12-24 09:08:27, track name: To Challenge Ashnard
+time: 2025-12-24 09:08:27, track name: Moving Up
+time: 2025-12-24 09:08:27, track name: Plight!
+time: 2025-12-24 09:08:27, track name: A Mighty Foe
+time: 2025-12-24 09:08:27, track name: Move Out!
+time: 2025-12-24 09:08:27, track name: Quiet Days
+time: 2025-12-24 09:08:27, track name: Abominable Memory
+time: 2025-12-24 09:08:27, track name: A Grave Fate
+time: 2025-12-24 09:08:27, track name: Wonderful Pirates
+time: 2025-12-24 09:08:27, track name: A World of Sorrow
+time: 2025-12-24 09:08:27, track name: Bittersweet Victory
+time: 2025-12-24 09:08:27, track name: The White Heron
+time: 2025-12-24 09:08:27, track name: Power-Hungry Fool
+time: 2025-12-24 09:08:27, track name: Vow
+time: 2025-12-24 09:08:27, track name: With Us!
+time: 2025-12-24 09:08:27, track name: Rally the Spirit
+time: 2025-12-24 09:08:27, track name: Dreaming of Home
+time: 2025-12-24 09:08:27, track name: Father's Back
+time: 2025-12-24 09:08:27, track name: Beautiful Princess Elincia
+time: 2025-12-24 09:08:27, track name: His Father's Son
+time: 2025-12-24 09:08:27, track name: Memory of Mom
+time: 2025-12-24 09:08:27, track name: Shadows Materialize
+time: 2025-12-24 09:08:27, track name: A Messenger
+time: 2025-12-24 09:08:27, track name: Brave General, Brave King
+time: 2025-12-24 09:08:27, track name: Lion King Caineghis
+time: 2025-12-24 09:08:28, track name: Stratagem in Black Armor
+time: 2025-12-24 09:08:28, track name: Fate Unstoppable
+time: 2025-12-24 09:08:28, track name: To My Love
+time: 2025-12-24 09:08:28, track name: On Black Wings
+time: 2025-12-24 09:08:28, track name: A Trusted Ruler
+time: 2025-12-24 09:08:28, track name: The Black Knight
+time: 2025-12-24 09:08:28, track name: March Forward!
+time: 2025-12-24 09:08:28, track name: Burning Ambition
+time: 2025-12-24 09:08:28, track name: Painful Wish
+time: 2025-12-24 09:08:28, track name: Limitless Power
+time: 2025-12-24 09:08:28, track name: Requiem for the Fallen
+time: 2025-12-24 09:08:28, track name: Young Warriors
+time: 2025-12-24 09:08:28, track name: Life Returns
+time: 2025-12-24 09:08:28, track name: Rising Morale
+time: 2025-12-24 09:08:28, track name: Final Farewell
+time: 2025-12-24 09:08:28, track name: Puzzling Truth
+time: 2025-12-24 09:08:28, track name: After the War
+time: 2025-12-24 09:08:28, track name: For Victory
+time: 2025-12-24 09:08:28, track name: A Fallen Comrade
+time: 2025-12-24 09:08:28, track name: Eternal Glory
+time: 2025-12-24 09:08:28, track name: Fire Emblem Theme
+time: 2025-12-24 09:08:29, track name: A Connectar Portal Opens
+time: 2025-12-24 09:08:29, track name: Waking Up
+time: 2025-12-24 09:08:29, track name: Brothership!
+time: 2025-12-24 09:08:29, track name: Guided by Luigi's Voice
+time: 2025-12-24 09:08:29, track name: Lighthouse of Rumbla Island
+time: 2025-12-24 09:08:29, track name: Discovered a Drifting Island!
+time: 2025-12-24 09:08:29, track name: Where'd They Land Now?
+time: 2025-12-24 09:08:29, track name: Victory!
+time: 2025-12-24 09:08:29, track name: Fly, Mario and Luigi!
+time: 2025-12-24 09:08:29, track name: Attack Combos!
+time: 2025-12-24 09:08:29, track name: What's Gonna Happen?!
+time: 2025-12-24 09:08:29, track name: Exciting!
+time: 2025-12-24 09:08:29, track name: Connie and Shipshape Island
+time: 2025-12-24 09:08:29, track name: Connecting Everyone with Island Link
+time: 2025-12-24 09:08:29, track name: Soggy Rescue on Raynforst Island
+time: 2025-12-24 09:08:29, track name: Luigi Logic
+time: 2025-12-24 09:08:29, track name: Twistee Island Twist
+time: 2025-12-24 09:08:29, track name: Cooperation or Competition?!
+time: 2025-12-24 09:08:29, track name: First-Time Island Link
+time: 2025-12-24 09:08:29, track name: Growdacious Groove
+time: 2025-12-24 09:08:29, track name: To the Linked Island!
+time: 2025-12-24 09:08:29, track name: Wow! The Rumbla Dish!
+time: 2025-12-24 09:08:29, track name: Dyode Groove Is Back
+time: 2025-12-24 09:08:30, track name: Kindness and Regret
+time: 2025-12-24 09:08:30, track name: Wriggling Spite
+time: 2025-12-24 09:08:30, track name: The Four Great Lighthouses
+time: 2025-12-24 09:08:30, track name: A Battle of Logic
+time: 2025-12-24 09:08:30, track name: Good Night
+time: 2025-12-24 09:08:30, track name: A Threat Blocks Your Path
+time: 2025-12-24 09:08:30, track name: Full-Power Battle Groove!
+time: 2025-12-24 09:08:30, track name: The Gentle Breeze of Florall Island
+time: 2025-12-24 09:08:30, track name: A Changed Island
+time: 2025-12-24 09:08:30, track name: Great Lighthouse - Stolen Light
+time: 2025-12-24 09:08:30, track name: The Maze of Merrygo Island and the Vision in Pink
+time: 2025-12-24 09:08:30, track name: An Afternoon on an Islet
+time: 2025-12-24 09:08:30, track name: Connie Lights the Lighthouses
+time: 2025-12-24 09:08:30, track name: The Monster Bird of Desolatt Island
+time: 2025-12-24 09:08:30, track name: Bulbfish Island in the Dark
+time: 2025-12-24 09:08:30, track name: Rescue Operation
+time: 2025-12-24 09:08:30, track name: The Majesty of IDLE
+time: 2025-12-24 09:08:30, track name: The Sharkbones of Allsand Island
+time: 2025-12-24 09:08:30, track name: Everyday Errands
+time: 2025-12-24 09:08:30, track name: The Business Boogie of Lottacoins Island
+time: 2025-12-24 09:08:30, track name: Heatfreeze Island's Fire and Ice
+time: 2025-12-24 09:08:30, track name: Wedding Groove
+time: 2025-12-24 09:08:30, track name: A Wedding Unites the People
+time: 2025-12-24 09:08:30, track name: Lord Bowser's Awesome Offandon Island
+time: 2025-12-24 09:08:30, track name: A Heart-Pounding Dungeon
+time: 2025-12-24 09:08:30, track name: The Couple's Vows
+time: 2025-12-24 09:08:30, track name: Slippenglide Island, Where Puns Are Colder Than the Weather
+time: 2025-12-24 09:08:30, track name: Bowser's Minions Vs. Fortress Zokket
+time: 2025-12-24 09:08:30, track name: Red-Hot Skorcheen Island
+time: 2025-12-24 09:08:31, track name: Chilliam and Burnadette
+time: 2025-12-24 09:08:31, track name: The Power of Fortress Zokket
+time: 2025-12-24 09:08:31, track name: Tune of Unease
+time: 2025-12-24 09:08:31, track name: What the Light Reveals
+time: 2025-12-24 09:08:31, track name: Jellyfish Island Vibes
+time: 2025-12-24 09:08:31, track name: Guiding Voice
+time: 2025-12-24 09:08:31, track name: Bowser's Castle on Wayaway Island
+time: 2025-12-24 09:08:31, track name: Glohm Bowser's Bellow
+time: 2025-12-24 09:08:31, track name: Growdacious Groove (Hard)
+time: 2025-12-24 09:08:31, track name: The Great Conductor's Gentle Light
+time: 2025-12-24 09:08:31, track name: Fierce Battles in Fortress Zokket
+time: 2025-12-24 09:08:31, track name: Welcome to Reclusa World
+time: 2025-12-24 09:08:31, track name: Fly or Dive, Shipshape Island!
+time: 2025-12-24 09:08:31, track name: Escape from Fortress Zokket
+time: 2025-12-24 09:08:31, track name: The Revival of Reclusa
+time: 2025-12-24 09:08:31, track name: The Power of Bonds
+time: 2025-12-24 09:08:31, track name: Club Dyode
+time: 2025-12-24 09:08:31, track name: The Beginning of the End
+time: 2025-12-24 09:08:31, track name: Dyode Groove
+time: 2025-12-24 09:08:31, track name: Up-Tempo Growdacious Groove (Hard)
+time: 2025-12-24 09:08:31, track name: Reclusa World
+time: 2025-12-24 09:08:31, track name: Infiltrate Soli-Tree!
+time: 2025-12-24 09:08:31, track name: The M*shr**m K*ngd*m?
+time: 2025-12-24 09:08:32, track name: Bond Groove
+time: 2025-12-24 09:08:32, track name: Up-Tempo Bond Groove
+time: 2025-12-24 09:08:32, track name: May You Have Safe Travels
+time: 2025-12-24 09:08:32, track name: The M******m K*****m?
+time: 2025-12-24 09:08:32, track name: The M*shroom K*ngdom?
+time: 2025-12-24 09:08:32, track name: The Mushroom Kingdom?
+time: 2025-12-24 09:08:32, track name: Where Are You Planning to Go?
+time: 2025-12-24 09:08:32, track name: Up-Tempo Dyode Groove
+time: 2025-12-24 09:08:32, track name: The End of Reclusa World
+time: 2025-12-24 09:08:32, track name: Reuniting with Everyone
+time: 2025-12-24 09:08:32, track name: Reclusa's Fierce Attack
+time: 2025-12-24 09:08:32, track name: Goodbye, Shipshape Island! Goodbye, Everyone!
+time: 2025-12-24 09:08:32, track name: Unexpected Help in a Dire Situation
+time: 2025-12-24 09:08:32, track name: Ready to Face Weeping Reclusa
+time: 2025-12-24 09:08:32, track name: Weeping Reclusa Activates
+time: 2025-12-24 09:08:32, track name: Reclusa's White Shadow
+time: 2025-12-24 09:08:32, track name: The Final Phase
+time: 2025-12-24 09:08:32, track name: This Is the End for You!
+time: 2025-12-24 09:08:32, track name: The World Is Connected!
+time: 2026-01-09 09:04:47, Failed to get data for track ID: 1409f341-5236-4008-884c-42579acb11d6
+time: 2026-01-09 09:04:47, Failed to get data for track ID: a7bc1587-1396-446b-8225-ddcd63da9ce3
+time: 2026-01-09 09:04:47, Failed to get data for track ID: a71eb36f-de82-4354-b820-d4a639216997
+time: 2026-01-09 09:04:47, Failed to get data for track ID: 10dd7980-2df0-41de-98db-04b2294f4061
+time: 2026-01-09 09:04:47, Failed to get data for track ID: 4bb5e75a-4dcb-40e9-bf7a-13001a768bab
+time: 2026-01-09 09:04:47, Failed to get data for track ID: 7a8b382f-ba07-49e3-b35e-53dc1240202d
+time: 2026-01-09 09:04:47, Failed to get data for track ID: 0117c515-5074-407e-83c0-6dbe316a326f
+time: 2026-01-09 09:04:47, Failed to get data for track ID: 20d01453-a43e-4767-846e-2fb34b1ddd06
