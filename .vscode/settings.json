@@ -1,10 +1,9 @@
 {
-    "editor.formatOnSave": true,
-    "autopep8.args": [
-        "--ignore=E501"
-    ],
-    "editor.snippetSuggestions": "bottom",
-    "[csv]": {
-        "editor.inlayHints.maximumLength": 0
-    }
+  "editor.formatOnSave": true,
+  "autopep8.args": ["--ignore=E501"],
+  "editor.snippetSuggestions": "bottom",
+  "[csv]": {
+    "editor.inlayHints.maximumLength": 0
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:pyenv"
 }
