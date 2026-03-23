@@ -263,6 +263,8 @@ def gen_excel(lang: str):
         for play_list_sum_data in section_data['playlists']:
             playlist_data = get_playlist_data(play_list_sum_data['id'], lang)
             for track_data in playlist_data['tracks']:
+                if not 'game' in track_data or not track_data['game']:
+                    continue
                 game_id = track_data['game']['id']
                 track_id = track_data['id']
                 if game_id in game_dict:
@@ -276,6 +278,8 @@ def gen_excel(lang: str):
         for play_list_sum_data in section_data['playlists']:
             playlist_data = get_playlist_data(play_list_sum_data['id'], lang)
             for track_data in playlist_data['tracks']:
+                if not 'game' in track_data or not track_data['game']:
+                    continue
                 game_id = track_data['game']['id']
                 track_id = track_data['id']
                 if game_id in game_dict:

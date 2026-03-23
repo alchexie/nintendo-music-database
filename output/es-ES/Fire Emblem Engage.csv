@@ -1,6 +1,6 @@
 index,name,duration,is_loop,is_best,playlist,playlist_2,playlist_3,id,thumbnail_url
-1,"Emblem Engage!",245950,False,True,"","","Destacados de Nintendo Music|Selección de Nintendo Music|Selección de Nintendo Switch","2407c386-bbaa-443e-92fc-901c2ebdd0dd","https://image-assets.m.nintendo.com/30cac0fd-0011-4e6a-b2ae-291a4fbcad89"
-2,"Emblem Engage! (English)",245982,False,True,"","","Destacados de Nintendo Music|Selección de Nintendo Music|Selección de Nintendo Switch","1214d313-b6b2-4f15-8dfc-ec0e6654076c","https://image-assets.m.nintendo.com/44be1508-c84b-47cc-a6f1-91a969a2e4b3"
+1,"Emblem Engage!",245950,False,True,"","Canciones","Destacados de Nintendo Music|Selección de Nintendo Music|Selección de Nintendo Switch","2407c386-bbaa-443e-92fc-901c2ebdd0dd","https://image-assets.m.nintendo.com/30cac0fd-0011-4e6a-b2ae-291a4fbcad89"
+2,"Emblem Engage! (English)",245982,False,True,"","Canciones","Destacados de Nintendo Music|Selección de Nintendo Music|Selección de Nintendo Switch","1214d313-b6b2-4f15-8dfc-ec0e6654076c","https://image-assets.m.nintendo.com/44be1508-c84b-47cc-a6f1-91a969a2e4b3"
 3,"Engage...",98348,True,True,"","Pantalla del título","Destacados de Nintendo Music","8f48da2e-ac01-483d-9b56-c8d75371db9b","https://image-assets.m.nintendo.com/94dabc48-12f0-4aa4-aa39-93151d335f8f"
 4,"Fire Emblem Theme",112731,True,True,"","","Destacados de Nintendo Music","ffcba08c-0cac-4953-8348-c0dda3ae46c2","https://image-assets.m.nintendo.com/d547fb1c-282d-4606-9408-8cb64b5f6f69"
 5,"The Dragon's Dream",82511,False,False,"Alear|Marth","","","1993ae9b-edcc-4a07-9811-ec6007645714","https://image-assets.m.nintendo.com/d1e8840f-fbc2-45eb-86e9-802a235fd354"
@@ -179,5 +179,5 @@ index,name,duration,is_loop,is_best,playlist,playlist_2,playlist_3,id,thumbnail_
 178,"Fire Emblem Theme (The Fire Emblem)",202227,True,True,"","","Destacados de Nintendo Music","c5dc4a56-6b91-4a6a-8822-012ba1f4bd3c","https://image-assets.m.nintendo.com/fdc9dfe0-540e-41f0-8d50-a2a5407f1658"
 179,"The Journey Is Finally...",553673,False,True,"","","Destacados de Nintendo Music","373e0627-8c37-4641-9e0b-49ca243a05ec","https://image-assets.m.nintendo.com/040d8852-2d2a-42ab-8c6e-10c7db870e29"
 180,"The Journey Is Finally Done",654525,False,False,"Epopeya del Caído","","","d6c04527-049f-4714-b7c4-8d83142339a9","https://image-assets.m.nintendo.com/30c9019a-dcdf-47b4-9d96-8edf48d30bc3"
-181,"Fiery Bonds",298787,False,True,"Alear","Créditos","Destacados de Nintendo Music","e91bc6f8-3f7c-4af7-9254-628c44103dca","https://image-assets.m.nintendo.com/ed9cad7e-e770-497a-9489-efd31149c818"
-182,"Fiery Bonds (English)",298556,False,True,"","Créditos","Destacados de Nintendo Music","7bc59c3a-613e-4cad-89be-a6096aa68c41","https://image-assets.m.nintendo.com/61408839-7dee-4b15-ba24-1a79109b2f68"
+181,"Fiery Bonds",298787,False,True,"Alear","Canciones|Créditos","Destacados de Nintendo Music","e91bc6f8-3f7c-4af7-9254-628c44103dca","https://image-assets.m.nintendo.com/ed9cad7e-e770-497a-9489-efd31149c818"
+182,"Fiery Bonds (English)",298556,False,True,"","Canciones|Créditos","Destacados de Nintendo Music","7bc59c3a-613e-4cad-89be-a6096aa68c41","https://image-assets.m.nintendo.com/61408839-7dee-4b15-ba24-1a79109b2f68"

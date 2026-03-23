@@ -5,6 +5,7 @@ from datetime import datetime
 # data = main.get_playlist_data("b77924fa-f2b0-46a2-944e-76b6f2d7ebf0")
 # print(data)
 
+
 # auth = "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEyMTYiLCJ0eXAiOiJKV1QifQ.eyJqdGkiOiJmNDU4YmRhZS1kNjYwLTExZjAtOTE3Zi00MjAwNGU0OTQzMDAiLCJzdWIiOiJkZWQzZmQxZTk3MmQzMzNhIiwiZXhwIjoxNzY1NDQwODM1LCJpc3MiOiJsaXZlLXByb2R1Y3Rpb24iLCJpYXQiOjE3NjU0MzcyMzUsInR5cCI6ImJhc2ljIiwiY291bnRyeSI6IkhLIiwibmE6aWlkIjoiMDEzMDY3NzhiMmIwNmI0YmZjIiwibmE6bzEzIjoxLCJhYnRlc3RzIjoiIn0.w__b-MrAtkfTroZ-XdajdEBLYCSErUL1PaDK6Wu8vvg"
 # url = "https://api.m.nintendo.com/catalog/users/ded3fd1e972d333a/sections/home"
 # params = {
@@ -32,6 +33,11 @@ def get_api(url: str, params: dict, retry_count: int = 5) -> dict | list:
         except Exception as e:
             print(f'Error: {e}')
     raise RuntimeError('Failed to get a successful response from the API after multiple retries')
+
+
+# track_id = "bfac443c-402e-4242-8d35-9545b9d87453"
+# url = f'https://api.m.nintendo.com/catalog/tracks/{track_id}'
+# track_data = get_api(url, params={'country': 'JP', 'lang': 'zh-CN'})
 
 
 url = "https://api.m.nintendo.com/catalog/resources:detectUpdates"

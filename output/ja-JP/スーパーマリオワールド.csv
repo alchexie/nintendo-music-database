@@ -1,7 +1,7 @@
 index,name,duration,is_loop,is_best,playlist,playlist_2,playlist_3,id,thumbnail_url
 1,"タイトルBGM",95578,True,True,"","タイトル画面","Nintendo Musicセレクション|Nintendo Musicピックアップ集|マリオセレクション","80c04bd9-1285-4902-87d1-e8587045b920","https://image-assets.m.nintendo.com/bb00ece6-1206-471d-b738-8a45b9c916a2"
 2,"ヨースター島（MAP）",35452,True,True,"ヨッシー|恐竜ランド","","Nintendo Musicピックアップ集","05c1a0e2-acb3-4de5-a00e-f1e790d87239","https://image-assets.m.nintendo.com/d5ecb575-d176-4efb-a9bd-503479dd021c"
-3,"地上BGM",99285,True,True,"コース","ウォーキング|元気を出して|冒険のはじまり","Nintendo Musicセレクション|Nintendo Musicピックアップ集|「ながさチェンジ」におすすめ|マリオセレクション","560c86d4-baf6-4bcd-894c-b4e200c814e8","https://image-assets.m.nintendo.com/ba6600d2-f158-4ef9-819b-187a09f6707c"
+3,"地上BGM",99285,True,True,"キラー|コース","ウォーキング|元気を出して|冒険のはじまり","Nintendo Musicセレクション|Nintendo Musicピックアップ集|「ながさチェンジ」におすすめ|マリオセレクション","560c86d4-baf6-4bcd-894c-b4e200c814e8","https://image-assets.m.nintendo.com/ba6600d2-f158-4ef9-819b-187a09f6707c"
 4,"ハリーアップ",2055,False,False,"","","","0bf6b67a-43d9-46fb-83c2-c9a2456c5569","https://image-assets.m.nintendo.com/14dd0005-4383-4b00-9133-26386adca133"
 5,"地上BGM（ハリーアップ）",86379,True,False,"コース","","","c2b91d27-1acb-47a2-8e45-932e2d6b8749","https://image-assets.m.nintendo.com/cb64dacb-47f1-4619-9224-43a71f53dc85"
 6,"地上BGM（ヨッシー）",99339,True,False,"コース|ヨッシー","","","08fa800a-9927-4c11-b4b9-464b0f7054ce","https://image-assets.m.nintendo.com/af8d068c-8d13-43f5-b5b0-a72ad7276ba4"

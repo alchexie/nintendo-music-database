@@ -1,6 +1,6 @@
 index,name,duration,is_loop,is_best,playlist,playlist_2,playlist_3,id,thumbnail_url
 1,"Nintendo!",1452,False,True,"","","Nintendo Music – Highlights","4864ec77-757c-477f-9c9a-9c418e2b8a9e","https://image-assets.m.nintendo.com/d437979d-fbce-4a29-8523-a886613a6ddc"
-2,"Yoshi's Story!",72337,True,True,"Yoshi","Titelthemen","Das Beste von Nintendo Music|Nintendo Music – Highlights","9edce687-70e2-4813-8b27-a060c258dbd1","https://image-assets.m.nintendo.com/1d78b40d-f8d8-4d52-bda2-b264bc90e9ee"
+2,"Yoshi's Story!",72337,True,True,"Yoshi","Titelthemen|Tracks mit Gesang","Das Beste von Nintendo Music|Nintendo Music – Highlights","9edce687-70e2-4813-8b27-a060c258dbd1","https://image-assets.m.nintendo.com/1d78b40d-f8d8-4d52-bda2-b264bc90e9ee"
 3,"Yoshi's Song",168200,True,True,"Level|Yoshi","Gehen|Neue Abenteuer","Das Beste von Nintendo Music|Nintendo Music – Highlights","1b40b971-e6d2-4106-9ed8-eadeb97f3b3f","https://image-assets.m.nintendo.com/92f6a81e-5644-4f4d-849f-7ce62be643a6"
 4,"Yoshis on the Beach",171031,True,True,"Level","Sommer","Nintendo Music – Highlights","ddbfcdb5-2574-446d-817b-4e6797be5b08","https://image-assets.m.nintendo.com/e37acbfa-a7b8-40c6-ba97-7d70f81ab81f"
 5,"Yoshi Curry",203247,True,True,"Level","","Nintendo Music – Highlights","e73e3e93-a945-4cec-b3fb-61dfa979e66b","https://image-assets.m.nintendo.com/2e9501d0-5a3b-415e-951f-cf54741e6a2c"
@@ -23,7 +23,7 @@ index,name,duration,is_loop,is_best,playlist,playlist_2,playlist_3,id,thumbnail_
 22,"P.6-Finale",30606,True,True,"","Gruselig!","Nintendo Music – Highlights","750443e1-8f00-4be2-aeac-6fdcc1ffafbc","https://image-assets.m.nintendo.com/c33f9990-fa96-4a06-be08-c8cfe144c23d"
 23,"30 Fruit!",9312,False,True,"","","Nintendo Music – Highlights","56e34d24-4bd6-4ad2-beb2-1a6c312afe18","https://image-assets.m.nintendo.com/d5c10e55-73de-42af-9f48-7942ef862d14"
 24,"Yoshi's Mood",62640,True,True,"","Gehen","Nintendo Music – Highlights","f755c29a-ca68-4e69-bce5-1920635405bf","https://image-assets.m.nintendo.com/d873919c-58d1-461b-9696-4ed81b6acc5e"
-25,"The Yoshis Grew Happier",33837,False,True,"","","Nintendo Music – Highlights","9ee14d27-6aeb-45c4-86c1-a195ab2d231c","https://image-assets.m.nintendo.com/93fcaff1-a633-497b-a476-b4264a755182"
+25,"The Yoshis Grew Happier",33837,False,True,"","Tracks mit Gesang","Nintendo Music – Highlights","9ee14d27-6aeb-45c4-86c1-a195ab2d231c","https://image-assets.m.nintendo.com/93fcaff1-a633-497b-a476-b4264a755182"
 26,"To the Boss Room",9733,False,False,"","","","f9d2ed2b-f1b5-4412-b229-3290afb4e069","https://image-assets.m.nintendo.com/eb393ab1-d2c8-4bc6-97a1-6acd93a689f0"
 27,"A Boss Appears!",24953,True,False,"","","","8a08aac9-d9e6-4913-a28b-301c85a94aa5","https://image-assets.m.nintendo.com/2c3443e3-a9e8-478e-85d6-b6f96f69dbce"
 28,"Boss Duel",102231,True,True,"","Bosskämpfe","Nintendo Music – Highlights","92f9e34b-376f-4612-88a3-f91a140be8e1","https://image-assets.m.nintendo.com/bd2d28aa-36f3-409c-b331-64d1a5d49a33"
@@ -46,5 +46,5 @@ index,name,duration,is_loop,is_best,playlist,playlist_2,playlist_3,id,thumbnail_
 45,"Thank You, White Shy Guy",10412,False,False,"Shy Guy","","","2c37998f-1b2a-4d80-a7e7-e233d1eba81a","https://image-assets.m.nintendo.com/d55ccf6d-6238-432f-bb43-65f1413c17cd"
 46,"Yoshi Room",60965,True,True,"","","Nintendo Music – Highlights","b734b0e4-9cb5-48f5-94ba-0431ff3500f5","https://image-assets.m.nintendo.com/2e7637dc-c952-4b5d-9f2f-27242a06596b"
 47,"What's \"Options\"?",34022,True,False,"","","","66e6fd47-a64a-4dc0-907e-932c249b5dec","https://image-assets.m.nintendo.com/4b6792d0-df57-4f01-9ce6-8f7dc3b10ee9"
-48,"Yoshi's Tale",214813,False,True,"Yoshi","Zeit für eine Pause","Das Beste von Nintendo Music|Nintendo Music – Highlights","c2b99547-d75a-4680-bdb9-ddeb97e78ec3","https://image-assets.m.nintendo.com/8f26e3b0-4c05-4c8c-b637-169181e98c55"
+48,"Yoshi's Tale",214813,False,True,"Yoshi","Tracks mit Gesang|Zeit für eine Pause","Das Beste von Nintendo Music|Nintendo Music – Highlights","c2b99547-d75a-4680-bdb9-ddeb97e78ec3","https://image-assets.m.nintendo.com/8f26e3b0-4c05-4c8c-b637-169181e98c55"
 49,"Yoshi's Credits",86378,False,True,"","Credits|Gute Nacht","Nintendo Music – Highlights","dab7dedf-c8f4-4154-9345-24e11cfd9882","https://image-assets.m.nintendo.com/862017ba-8950-4347-a2ae-05f6e91069cb"
